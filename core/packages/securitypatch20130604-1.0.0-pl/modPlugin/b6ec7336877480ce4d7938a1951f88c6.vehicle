@@ -1,0 +1,22 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 'name',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"securitypatch20130604-1.0.0-pl\\/modPlugin\\/b6ec7336877480ce4d7938a1951f88c6.resolve.plugin_events.resolver","type":"php","name":"resolve.plugin_events"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ec4e33423a00e306deff1796aae4af6d',
+  'package' => 'modx',
+  'class' => 'modPlugin',
+  'signature' => 'b6ec7336877480ce4d7938a1951f88c6',
+  'native_key' => NULL,
+  'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"securitypatch20130604","description":"<strong>1.0.0-pl<\\/strong> Plugin for mitigating multiple security vulnerabilities discovered June 4, 2013.","editor_type":0,"category":0,"cache_type":0,"plugincode":"if (isset($_REQUEST[\'ctx\']) && !$modx->getCount(\'modContext\', array(\'key\' => $_REQUEST[\'ctx\']))) {\\n    $modx->switchContext(\'mgr\');\\n}\\nif (isset($_REQUEST[\'HTTP_MODAUTH\']) && empty($_REQUEST[\'HTTP_MODAUTH\'])) {\\n    $modx->sendUnauthorizedPage();\\n}","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":0,"static_file":"","content":"if (isset($_REQUEST[\'ctx\']) && !$modx->getCount(\'modContext\', array(\'key\' => $_REQUEST[\'ctx\']))) {\\n    $modx->switchContext(\'mgr\');\\n}\\nif (isset($_REQUEST[\'HTTP_MODAUTH\']) && empty($_REQUEST[\'HTTP_MODAUTH\'])) {\\n    $modx->sendUnauthorizedPage();\\n}"}',
+);

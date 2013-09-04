@@ -546,7 +546,7 @@ FileETag None
 # </IfModule>
 
 # ------------------------------------------------------------------------------
-# | Filename-based cache busting                                               |
+# | URL Friendly Settings                                                      |
 # ------------------------------------------------------------------------------
 <IfModule mod_rewrite.c>
     RewriteCond %{HTTP_USER_AGENT} ^.*internal\ dummy\ connection.*$ [NC]

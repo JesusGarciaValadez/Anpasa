@@ -1,0 +1,199 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      'f3d5fd358c6e1f2b6e3d98a0e7ef8318' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":27,"name":"prettyGallery","description":"Enable Pretty Gallery","editor_type":0,"category":5,"cache_type":0,"snippet":"[[!Gallery? &album=`[[*prettyGalleryAlbum]]` &thumbTpl=`prettyGalleryImageTpl` &thumbWidth=`[[*prettyThumbnailWidth]]` &thumbHeight=`[[*prettyThumbnailHeight]]` &useCss=`0`]]","locked":0,"properties":"a:0:{}"}',
+        'guid' => '11bea544d073645dd00ea8cef39dbfe5',
+        'native_key' => 27,
+        'signature' => 'd8d9684a17266de4be5e24ff77f31c82',
+      ),
+      '8dc82ae0db1f7c17fc6a3c89674b155c' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":28,"name":"prettyGalleryCss","description":"CSS Stylesheet for Pretty Gallery","editor_type":0,"category":5,"cache_type":0,"snippet":"<link rel=\\"stylesheet\\" href=\\"assets\\/prettyGallery\\/prettyPhoto\\/css\\/prettyPhoto.css\\" type=\\"text\\/css\\" media=\\"screen\\" charset=\\"utf-8\\" \\/>\\n\\n<link rel=\\"stylesheet\\" href=\\"assets\\/prettyGallery\\/prettyPhoto\\/css\\/style.css\\" type=\\"text\\/css\\" media=\\"screen\\" charset=\\"utf-8\\" \\/>","locked":0,"properties":"a:0:{}"}',
+        'guid' => '0338a2ae84d25bc9364fee807cbe7be7',
+        'native_key' => 28,
+        'signature' => 'cddbeca1aab8dc4d4823a1a7d758d428',
+      ),
+      '5bb8bf931aaef63b648eeb77c69efb72' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":25,"name":"prettyGalleryImageTpl","description":"Template for each image","editor_type":0,"category":5,"cache_type":0,"snippet":"<a href=\\"[[+image_absolute]]\\" rel=\\"prettyPhoto[pp_gal]\\" class=\\"prettyGalleryThumb\\"><img src=\\"[[+thumbnail]]\\" alt=\\"[[+name]]\\" \\/><\\/a>","locked":0,"properties":"a:0:{}"}',
+        'guid' => 'f00340d7de8880c1b98686819a7acb9a',
+        'native_key' => 25,
+        'signature' => '8403be18c1cfeb3f7ea4b6bd9caf280f',
+      ),
+      '0b54e57b0b637a80ae388e04dc2096fe' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":29,"name":"prettyGalleryScripts","description":"Contains all Pretty Gallery Javascripts","editor_type":0,"category":5,"cache_type":0,"snippet":"<script src=\\"assets\\/prettyGallery\\/prettyPhoto\\/js\\/jquery-1.6.2.min.js\\" type=\\"text\\/javascript\\" charset=\\"utf-8\\"><\\/script>\\n\\n<script src=\\"assets\\/prettyGallery\\/prettyPhoto\\/js\\/jquery.prettyPhoto.js\\" type=\\"text\\/javascript\\" charset=\\"utf-8\\"><\\/script>\\n\\n<script type=\\"text\\/javascript\\" charset=\\"utf-8\\">\\n\\n\\t$(document).ready(function(){\\n\\t\\t$(\\"a[rel^=\'prettyPhoto\']\\").prettyPhoto({\\n\\t\\t\\tanimation_speed: \'normal\', \\/* fast\\/slow\\/normal *\\/\\n\\t\\t\\tslideshow: \'[[*prettyGallerySlideshowPause]]\', \\/* false OR interval time in ms *\\/\\n\\t\\t\\tautoplay_slideshow: \'[[*prettyGalleryAutoSlideshow]]\', \\/* true\\/false *\\/\\n\\t\\t\\topacity: 0.80, \\/* Value between 0 and 1 *\\/\\n\\t\\t\\tshow_title: true, \\/* true\\/false *\\/\\n\\t\\t\\tallow_resize: true, \\/* Resize the photos bigger than viewport. true\\/false *\\/\\n\\t\\t\\tdefault_width: [[*prettyThumbnailWidth]],\\n\\t\\t\\tdefault_height: [[*prettyThumbnailHeight]],\\n\\t\\t  \\tcounter_separator_label: \'\\/\', \\/* The separator for the gallery counter 1 \\"of\\" 2 *\\/\\n\\t\\t\\ttheme: \'[[*prettyGalleryTheme]]\', \\/* pp_default\\/ light_rounded \\/ dark_rounded \\/ light_square \\/ dark_square \\/ facebook *\\/\\n\\t\\t\\thorizontal_padding: 20, \\/* The padding on each side of the picture *\\/\\n\\t\\t\\thideflash: false, \\/* Hides all the flash object on a page, set to TRUE if flash appears over prettyPhoto *\\/\\n\\t\\t\\twmode: \'opaque\', \\/* Set the flash wmode attribute *\\/\\n\\t\\t\\tautoplay: true, \\/* Automatically start videos: True\\/False *\\/\\n\\t\\t\\tmodal: false, \\/* If set to true, only the close button will close the window *\\/\\n\\t\\t\\tdeeplinking: true, \\/* Allow prettyPhoto to update the url to enable deeplinking. *\\/\\n\\t\\t\\toverlay_gallery: [[*prettyGalleryThumbnails]], \\/* If set to true, a gallery will overlay the fullscreen image on mouse over *\\/\\n\\t\\t\\tkeyboard_shortcuts: true, \\/* Set to false if you open forms inside prettyPhoto *\\/\\n\\t\\t\\tie6_fallback: true,\\n\\t\\t  \\tsocial_tools: false\\n\\t\\t\\t\\/*custom_markup: \'\',*\\/\\n\\t\\t\\t\\n\\t\\t});\\n\\t  $(\'.fullResImage\').css({\'width\':\'[[*prettyImageWidth]]px\'})\\n\\t});\\n<\\/script>\\n\\t\\t","locked":0,"properties":"a:0:{}"}',
+        'guid' => 'f5be42dd2d0e9d83e5a1b369af511d8d',
+        'native_key' => 29,
+        'signature' => '238df950e020719947f8c5ad3e5ea1b3',
+      ),
+    ),
+    'Templates' => 
+    array (
+      '76d42c17bd012f32843926539a159304' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'templatename',
+        'class' => 'modTemplate',
+        'object' => '{"id":5,"templatename":"prettyGallery","description":"prettyGallery Template","editor_type":0,"category":5,"icon":"","template_type":0,"content":"<!DOCTYPE html PUBLIC \\"-\\/\\/W3C\\/\\/DTD XHTML 1.0 Transitional\\/\\/EN\\" \\"http:\\/\\/www.w3.org\\/TR\\/xhtml1\\/DTD\\/xhtml1-transitional.dtd\\">\\n<html xmlns=\\"http:\\/\\/www.w3.org\\/1999\\/xhtml\\">\\n\\n<head>\\n  <title>[[++site_name]] | [[*pagetitle]]<\\/title>\\n  <meta http-equiv=\\"Content-Type\\" content=\\"text\\/html; charset=[[++modx_charset]]\\" \\/>\\n\\n[[!If? &subject=`[[*prettyGalleryAlbum]]` &operator=`!empty` &then=`[[$prettyGalleryCss]]`]]\\n\\n<\\/head>\\n<body>\\n\\n\\n[[!If? &subject=`[[*prettyGalleryAlbum]]` &operator=`!empty` &then=`[[$prettyGallery]]`]]\\n\\n  \\n  [[!If? &subject=`[[*prettyGalleryAlbum]]` &operator=`!empty` &then=`[[$prettyGalleryScripts]]`]]\\n\\n\\n<\\/body>\\n<\\/html>","locked":0,"properties":"a:0:{}"}',
+        'guid' => '63a59edbec27a3812e69911650cc8e29',
+        'native_key' => 5,
+        'signature' => '095d928950cce9a37165b96019f0a0e3',
+      ),
+    ),
+    'TemplateVars' => 
+    array (
+      'dee397894115d0ccac3be3a7b12272bb' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modTemplateVar',
+        'object' => '{"id":30,"type":"galleryalbumlist","name":"prettyGalleryAlbum","caption":"Album Selector","description":"Select Album To Display","editor_type":0,"category":5,"locked":0,"elements":"","rank":1,"display":"default","default_text":"","properties":"a:0:{}","input_properties":"a:14:{s:10:\\"allowBlank\\";s:5:\\"false\\";s:4:\\"sort\\";s:4:\\"rank\\";s:3:\\"dir\\";s:4:\\"DESC\\";s:5:\\"limit\\";s:1:\\"0\\";s:5:\\"start\\";s:1:\\"0\\";s:8:\\"showNone\\";s:4:\\"true\\";s:9:\\"showCover\\";s:4:\\"true\\";s:6:\\"parent\\";s:0:\\"\\";s:5:\\"width\\";s:3:\\"400\\";s:9:\\"listWidth\\";s:0:\\"\\";s:9:\\"typeAhead\\";s:5:\\"false\\";s:14:\\"typeAheadDelay\\";s:3:\\"250\\";s:14:\\"forceSelection\\";s:5:\\"false\\";s:13:\\"listEmptyText\\";s:0:\\"\\";}","output_properties":"a:0:{}"}',
+        'guid' => 'c6b2b88230d328bd7b3317842cb945e1',
+        'native_key' => 30,
+        'signature' => 'b182d7c1ceacad1db617f91990ed744f',
+      ),
+      '4be8fb7e0bd378982516474a8b0ffe56' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modTemplateVar',
+        'object' => '{"id":31,"type":"listbox","name":"prettyGalleryThumbnails","caption":"Thumbnails","description":"Enable Thumbnails On Hover","editor_type":0,"category":5,"locked":0,"elements":"Yes==true||No==false","rank":3,"display":"default","default_text":"false","properties":"a:0:{}","input_properties":"a:7:{s:10:\\"allowBlank\\";s:5:\\"false\\";s:9:\\"listWidth\\";s:0:\\"\\";s:5:\\"title\\";s:0:\\"\\";s:9:\\"typeAhead\\";s:5:\\"false\\";s:14:\\"typeAheadDelay\\";s:3:\\"250\\";s:14:\\"forceSelection\\";s:5:\\"false\\";s:13:\\"listEmptyText\\";s:0:\\"\\";}","output_properties":"a:0:{}"}',
+        'guid' => '85c0d855e9d64ef3f9327ea69db7ef97',
+        'native_key' => 31,
+        'signature' => 'e6ff1ef03c2b5bd60392de8494930d47',
+      ),
+      'cb9306a378707320812800d7f802e823' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modTemplateVar',
+        'object' => '{"id":32,"type":"listbox","name":"prettyGalleryTheme","caption":"Theme Selector","description":"Select Theme To Use For Images","editor_type":0,"category":5,"locked":0,"elements":"Default==pp_default||Light Rounded==light_rounded||Dark Rounded==dark_rounded||Light Square==light_square||Dark Square==dark_square||Facebook==facebook","rank":2,"display":"default","default_text":"pp_default","properties":"a:0:{}","input_properties":"a:7:{s:10:\\"allowBlank\\";s:5:\\"false\\";s:9:\\"listWidth\\";s:0:\\"\\";s:5:\\"title\\";s:0:\\"\\";s:9:\\"typeAhead\\";s:5:\\"false\\";s:14:\\"typeAheadDelay\\";s:3:\\"250\\";s:14:\\"forceSelection\\";s:5:\\"false\\";s:13:\\"listEmptyText\\";s:0:\\"\\";}","output_properties":"a:0:{}"}',
+        'guid' => 'f670da221cfe8492d8eec7af171f3275',
+        'native_key' => 32,
+        'signature' => '366d731905ef59c2601dd0ba734cc0ad',
+      ),
+      '733a204a0e0175c041827baa44a6851d' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modTemplateVar',
+        'object' => '{"id":33,"type":"listbox","name":"prettyGalleryAutoSlideshow","caption":"Auto Start Slideshow","description":"Select if you want to enable auto playback","editor_type":0,"category":5,"locked":0,"elements":"Yes==true||No==false","rank":6,"display":"default","default_text":"false","properties":"a:0:{}","input_properties":"a:7:{s:10:\\"allowBlank\\";s:4:\\"true\\";s:9:\\"listWidth\\";s:0:\\"\\";s:5:\\"title\\";s:0:\\"\\";s:9:\\"typeAhead\\";s:5:\\"false\\";s:14:\\"typeAheadDelay\\";s:3:\\"250\\";s:14:\\"forceSelection\\";s:5:\\"false\\";s:13:\\"listEmptyText\\";s:0:\\"\\";}","output_properties":"a:0:{}"}',
+        'guid' => '4b5cfff45daf059a1b07ece06210c575',
+        'native_key' => 33,
+        'signature' => '82bc7c1db20ff45c7885bc7cacd80c5d',
+      ),
+      'dc4a5e55bb77927c2d74c201080cabb4' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modTemplateVar',
+        'object' => '{"id":34,"type":"number","name":"prettyGallerySlideshowPause","caption":"Slideshow Pause","description":"Insert how long to pause between images (insert time in milliseconds, default is 5000)","editor_type":0,"category":5,"locked":0,"elements":"","rank":7,"display":"default","default_text":"5000","properties":"a:0:{}","input_properties":"a:7:{s:10:\\"allowBlank\\";s:5:\\"false\\";s:13:\\"allowDecimals\\";s:2:\\"No\\";s:13:\\"allowNegative\\";s:2:\\"No\\";s:16:\\"decimalPrecision\\";s:1:\\"2\\";s:16:\\"decimalSeparator\\";s:1:\\".\\";s:8:\\"maxValue\\";s:0:\\"\\";s:8:\\"minValue\\";s:0:\\"\\";}","output_properties":"a:0:{}"}',
+        'guid' => 'ca4ea6657a0880993cac7a4405dfcdb9',
+        'native_key' => 34,
+        'signature' => '335c9290c0cb832c34b0f81326f33d64',
+      ),
+      '0a05d55a8dab01fa1a37eed9a833c2c3' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modTemplateVar',
+        'object' => '{"id":35,"type":"number","name":"prettyThumbnailWidth","caption":"Thumbnail Width","description":"Specify the width of the thumbnail","editor_type":0,"category":5,"locked":0,"elements":"","rank":4,"display":"default","default_text":"100","properties":"a:0:{}","input_properties":"a:7:{s:10:\\"allowBlank\\";s:5:\\"false\\";s:13:\\"allowDecimals\\";s:2:\\"No\\";s:13:\\"allowNegative\\";s:2:\\"No\\";s:16:\\"decimalPrecision\\";s:1:\\"2\\";s:16:\\"decimalSeparator\\";s:1:\\".\\";s:8:\\"maxValue\\";s:0:\\"\\";s:8:\\"minValue\\";s:0:\\"\\";}","output_properties":"a:0:{}"}',
+        'guid' => 'c3278062850110e48c11acaac2214fc9',
+        'native_key' => 35,
+        'signature' => 'e02990148944bcb87971a0e0b35413b3',
+      ),
+      '767869385d7d0b3fd29a1a3d1acb2b12' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modTemplateVar',
+        'object' => '{"id":36,"type":"number","name":"prettyThumbnailHeight","caption":"Thumbnail Height","description":"Specify the height of the thumbnail","editor_type":0,"category":5,"locked":0,"elements":"","rank":5,"display":"default","default_text":"100","properties":"a:0:{}","input_properties":"a:7:{s:10:\\"allowBlank\\";s:5:\\"false\\";s:13:\\"allowDecimals\\";s:2:\\"No\\";s:13:\\"allowNegative\\";s:2:\\"No\\";s:16:\\"decimalPrecision\\";s:1:\\"2\\";s:16:\\"decimalSeparator\\";s:1:\\".\\";s:8:\\"maxValue\\";s:0:\\"\\";s:8:\\"minValue\\";s:0:\\"\\";}","output_properties":"a:0:{}"}',
+        'guid' => 'ae2b09abcc63dd809819f85d7cbbfd3c',
+        'native_key' => 36,
+        'signature' => '3c77a9fbdf711caee2f6db8d5dc5f036',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'prettygallery',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"prettygallery-1.0-beta1\\/modCategory\\/7f4afbf68b7ff2e3587adf5a5d5c043b\\/0\\/","target":"return \\"\\".MODX_ASSETS_PATH.\\"\\/\\";","name":"prettyGallery"}',
+    ),
+    1 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"prettygallery-1.0-beta1\\/modCategory\\/7f4afbf68b7ff2e3587adf5a5d5c043b.resolve.tvt.resolver","type":"php","name":"resolve.tvt"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8f72f5ec12170c2d7b9b4b2818afcfb4',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '7f4afbf68b7ff2e3587adf5a5d5c043b',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"PrettyGallery"}',
+);
