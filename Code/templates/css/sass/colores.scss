@@ -1,0 +1,70 @@
+a {
+    
+    img { border: 0 none; }
+}
+/** comienza cintillo */
+.cintillo { border: 1px solid #990033; color: #FFF; }
+.footer .guias,
+.twitterlink .link{ color:#ffffff; }
+/** Termina Cintillo */
+/**Comienza header */
+.barrasocial {
+    
+    .leyenda { color: #a40234; }
+}
+/** Termina header */
+/** Comienza cuerpo */
+.banner {
+    
+    .descripcion{ color:#990033; }
+}
+.formulario{
+    
+    .extras{
+        
+        .boton{ border:0 none; }
+        .news{
+            
+            .link{
+                color:#990033;
+            }
+        }
+        .links{
+            
+            .link{
+                color:#666;
+            }
+        }
+    }
+    .campos{
+        
+        border:0 none;
+        label{ color:#666; }
+        .leyenda{ color:#990033; }
+        .select { border:0 none; }
+        selects {
+            
+            .inputtext{ border:0 none; }
+        }
+        .campo {
+            
+            .inputtext{ border:0 none; }
+        }
+        .formulario {
+            
+            .extras {
+                
+                .boton { margin:5px; }
+            }
+        }
+    }
+}
+.telefonos {
+    
+    a{ color:#666; }
+}
+.copyright{
+    
+    a{ color:#666; }
+}
+/** termina cuerpo */

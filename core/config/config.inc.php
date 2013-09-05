@@ -2,6 +2,8 @@
 /**
  *  MODX Configuration file
  */
+
+/*
 $database_type = 'mysql';
 $database_server = 'localhost';
 $database_user = 'anpasa';
@@ -9,6 +11,20 @@ $database_password = 'anpasa';
 $database_connection_charset = 'latin1';
 $dbase = 'anpasa';
 $table_prefix = 'anpasa_';
+*/
+
+
+$database_type = 'mysql';
+$database_server = 'localhost';
+$database_user = 'anpasaweb';
+$database_password = 'anpasaweb123+-';
+$database_connection_charset = 'latin1';
+$dbase = 'anpasaweb';
+$table_prefix = 'anpasa_';
+
+
+
+
 $database_dsn = 'mysql:host=localhost;dbname=anpasa;charset=latin1';
 $config_options = array (
 );

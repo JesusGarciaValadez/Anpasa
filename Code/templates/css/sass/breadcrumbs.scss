@@ -1,0 +1,37 @@
+#breadCrumbsContainer{
+    margin: 0px 0 20px 0;
+    border: 1px solid #dedede;
+    padding: 4px 20px 4px 10px;
+} 
+.B_crumbBox{
+    padding: 5px 20px 5px 30px;
+    background: #fff;
+    list-style-type: none;
+    float:left;
+    a{
+        color:#999;
+        font-size: .8em;
+        text-decoration:none;
+        &:hover{ text-decoration:underline; }
+    }
+}
+.B_firstCrumb {
+
+    .B_homeCrumb{
+        padding: 5px 15px 5px 0;
+        //    margin-right:5px;}
+    }
+    a{ background:url("../images/crumbs.gif") no-repeat right center; }
+}
+.B_crumb{
+    padding:5px 15px 5px 0;
+    //margin-right: -5px;
+    a{ background:url(../images/crumbs.gif) no-repeat right center; }
+}
+.B_lastCrumb {
+
+    a{
+        //margin:0;
+        &:hover{ text-decoration: none; cursor:pointer; }
+    }
+}

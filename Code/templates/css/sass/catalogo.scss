@@ -1,0 +1,97 @@
+#catalogo{
+    min-height:500px;
+    .componente{
+        width:700px;
+        min-height: 250px;
+        font-family: Trebuchet, Tahoma;
+    }
+    .cabecera{
+        background-color: #e97932;
+        color: #fff;
+        height: 30px;
+        margin-bottom: 4px;
+    }
+    .sku{
+        float:left;
+        margin-left:30px;
+        padding-top:4px;
+        font-size:18px;
+        text-transform:uppercase;
+    }
+    .nombre{
+        float:right;
+        margin-right:30px;
+        padding-top:4px;
+        text-transform: capitalize;
+        font-size:18px; 
+    }
+    .contenido{ height:100px; }
+    .imagen{ width:220px; float:left; }
+    img { width: 220px; height: 200px; }
+    .datos{
+        width: 470px;
+        min-height: 170px;
+        float: left;
+        padding-left: 10px;
+        padding-top: 10px;
+        color: #474747;
+    }
+    .linea{ min-height:25px; }
+    .concepto{
+        text-align: left;
+        float:left;
+        width:130px;
+        text-transform: capitalize;
+        font-size:14px;
+    }
+    .descripcion{
+        text-align: left;
+        float:left;     
+        font-size:14px;
+        max-width: 340px;   
+    }
+    .block { 
+        text-align: center; 
+        margin: 20px; 
+        &:before {
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: -0.25em; /* Adjusts for spacing */
+        }
+    }
+    .centro {
+        margin: 0 auto;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .paging{
+        float: right;
+        font-family: Trebuchet;
+        font-size: 20px;
+    }
+    .pageList{ color:#222; }
+    /*#catalogo .control{
+        padding-right: 35px;
+        float: left;
+        list-style-image: none;
+        font-family: Trebuchet;
+        color: #fff;
+        font-size: 15px;
+        vertical-align: bottom;
+    }*/
+    ul{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        li{
+            padding-right: 35px;
+            float: left;
+            font-family: Trebuchet;
+            color: #fff;
+            font-size: 15px;
+            vertical-align: bottom;
+        }
+    }
+    a { color: #e97932; font-family: Trebuchet; }
+}
