@@ -97,8 +97,8 @@ $_lang['setting_allow_forward_across_contexts_desc'] = 'Wenn diese Einstellung a
 $_lang['setting_allow_manager_login_forgot_password'] = 'Passwort-vergessen-Funktion auf Manager-Login-Seite zulassen';
 $_lang['setting_allow_manager_login_forgot_password_desc'] = 'Wenn Sie diese Einstellung auf "Nein" setzen, wird die Möglichkeit, sich ein neues Passwort zuschicken zu lassen, wenn man das bisherige vergessen hat, auf der Login-Seite des Managers deaktiviert.';
 
-$_lang['setting_allow_tags_in_post'] = 'HTML-Tags in POST-Requests erlauben';
-$_lang['setting_allow_tags_in_post_desc'] = 'Wenn diese Einstellung auf "Ja" gesetzt ist, können POST-Requests HTML-Formular-Tags enthalten.';
+$_lang['setting_allow_tags_in_post'] = 'Tags in POST-Requests erlauben';
+$_lang['setting_allow_tags_in_post_desc'] = 'Wenn diese Einstellung auf "Nein" gesetzt ist, werden HTML-Script-Tags, numerische HTML-Entities und MODX-Tags aus allen POST-Variablen entfernt. MODX empfiehlt, diese Einstellung für alle Kontexte auf "Nein" zu belassen, außer für den Kontext mgr, für den diese Einstellung standardmäßig auf "Ja" gesetzt ist.';
 
 $_lang['setting_archive_with'] = 'Erzwinge PCLZip-Archive';
 $_lang['setting_archive_with_desc'] = 'Wählen Sie "Ja", um PCLZip anstatt ZipArchive als ZIP-Extension zu nutzen. Wählen Sie diese Einstellung, falls Sie "extractTo"-Fehler erhalten oder Probleme beim Entpacken in der Package-Verwaltung haben.';
@@ -126,6 +126,9 @@ $_lang['setting_blocked_minutes_desc'] = 'Hier können Sie die Anzahl der Minute
 
 $_lang['setting_cache_action_map'] = 'Aktionen-Cache aktivieren';
 $_lang['setting_cache_action_map_desc'] = 'Wenn diese Einstellung auf "Ja" gesetzt wird, werden Aktionen (bzw. Controller-Maps) gecacht, um die Ladezeiten von Manager-Seiten zu reduzieren.';
+
+$_lang['setting_cache_alias_map'] = 'Kontext-Alias-Cache aktivieren';
+$_lang['setting_cache_alias_map_desc'] = 'Wenn diese Einstellung aktiviert ist, werden alle Ressourcen-URIs in den Kontext gecacht. Diese Einstellung sollte für kleinere Sites aktiviert und für größere Sites deaktiviert werden, um die Performance zu verbessern.';
 
 $_lang['setting_cache_context_settings'] = 'Kontext-Einstellungen-Cache aktivieren';
 $_lang['setting_cache_context_settings_desc'] = 'Wenn diese Einstellung auf "Ja" gesetzt wird, werden Kontext-Einstellungen gecacht, um die Ladezeiten zu verringern.';
@@ -609,6 +612,9 @@ $_lang['setting_session_cookie_path_desc'] = 'Verwenden Sie diese Einstellung, u
 
 $_lang['setting_session_cookie_secure'] = 'Sichere Session-Cookies';
 $_lang['setting_session_cookie_secure_desc'] = 'Setzen Sie diese Einstellung auf "Ja", um sichere Session-Cookies zu verwenden. Diese werden ausschließlich SSL-geschützt übertragen.';
+
+$_lang['setting_session_cookie_httponly'] = 'Session-Cookie: HttpOnly';
+$_lang['setting_session_cookie_httponly_desc'] = 'Verwenden Sie diese Einstellung, um das HttpOnly-Flag für Session-Cookies zu setzen.';
 
 $_lang['setting_session_gc_maxlifetime'] = 'Maximale Lebensdauer des Session-Garbage-Collectors';
 $_lang['setting_session_gc_maxlifetime_desc'] = 'Erlaubt Anpassung der PHP-Konfigurationseinstellung session.gc_maxlifetime bei Benutzung von "modSessionHandler".';

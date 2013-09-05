@@ -1,4 +1,4 @@
 <?php
 return array (
-  'width' => 282,
+  'activeTab' => 1,
 );

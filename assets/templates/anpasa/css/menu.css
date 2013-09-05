@@ -189,7 +189,7 @@ ul#menu li {
 ul#menu li ul.sub-menu {
     display:none;
     position: absolute;
-    top: 33px;
+    top: 22px;
     left: 0;
     width: 210px;
     background-color:rgba(71,71,71,0.1);

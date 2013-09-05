@@ -33,9 +33,8 @@
  */
 $_lang['sisea.no_results'] = 'There were no search results for the search "[[+query]]". Please try using more general terms to get more results.';
 $_lang['sisea.search'] = 'Search';
-/* $_lang['sisea.results_found'] = '[[+count]] Results found for "[[+text]]"'; */
-$_lang['sisea.results_found'] = 'Se encontrarion [[+count]] resultados sobre "[[+text]]"'; 
-$_lang['sisea.result_pages'] = 'Pagina:';
+$_lang['sisea.results_found'] = '[[+count]] Results found for "[[+text]]"';
+$_lang['sisea.result_pages'] = 'Result pages:';
 $_lang['sisea.index_finished'] = 'Finished indexing [[+total]] Resources.';
 
 /* Settings */

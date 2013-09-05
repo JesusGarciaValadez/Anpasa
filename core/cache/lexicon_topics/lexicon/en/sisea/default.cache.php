@@ -1,8 +1,8 @@
 <?php  return array (
   'sisea.no_results' => 'There were no search results for the search "[[+query]]". Please try using more general terms to get more results.',
   'sisea.search' => 'Search',
-  'sisea.results_found' => 'Se encontrarion [[+count]] resultados sobre "[[+text]]"',
-  'sisea.result_pages' => 'Pagina:',
+  'sisea.results_found' => '[[+count]] Results found for "[[+text]]"',
+  'sisea.result_pages' => 'Result pages:',
   'sisea.index_finished' => 'Finished indexing [[+total]] Resources.',
   'setting_sisea.driver_class' => 'Search Driver Class',
   'setting_sisea.driver_class_desc' => 'Change this to use a different search driver. SimpleSearch provides you with SimpleSearchDriverBasic and SimpleSearchDriverSolr (assuming you have a working Solr server).',

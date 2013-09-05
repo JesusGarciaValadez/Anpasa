@@ -48,6 +48,7 @@ Ext.extend(MODx,Ext.Component,{
             beforeClearCache: true
             ,beforeLogout: true
             ,beforeReleaseLocks: true
+            ,beforeLoadPage: true
             ,afterClearCache: true
             ,afterLogout: true
             ,afterReleaseLocks: true
@@ -154,11 +155,6 @@ Ext.extend(MODx,Ext.Component,{
         MODx.Ajax.request({
             url: MODx.config.connectors_url+'system/index.php'
             ,params: { action: 'clearCache',register: 'mgr' ,topic: topic }
-            ,listeners: {
-                'success':{fn:function() {
-                    this.console.fireEvent('complete');
-                },scope:this}
-            }
         });
         return true;
     }

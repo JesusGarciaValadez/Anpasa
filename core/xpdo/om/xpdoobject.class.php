@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2010-2012 by MODX, LLC.
+ * Copyright 2010-2013 by MODX, LLC.
  *
  * This file is part of xPDO.
  *
@@ -356,8 +356,11 @@ class xPDOObject {
      * @param array &$objCollection The collection to load the instance into.
      * @param string $className Name of the class.
      * @param mixed $criteria A valid primary key, criteria array, or xPDOCriteria instance.
-     * @param boolean|integer $cacheFlag Indicates if the objects should be cached and
+     * @param array $row The associative array containing the instance data.
+     * @param bool $fromCache If the instance is for the cache
+     * @param bool|int $cacheFlag Indicates if the objects should be cached and
      * optionally, by specifying an integer value, for how many seconds.
+     * @return bool True if a valid instance was loaded, false otherwise.
      */
     public static function _loadCollectionInstance(xPDO & $xpdo, array & $objCollection, $className, $criteria, $row, $fromCache, $cacheFlag=true) {
         $loaded = false;
@@ -923,7 +926,7 @@ class xPDOObject {
      *
      * Warning: do not use the $format parameter if retrieving multiple values of
      * different types, as the format string will be applied to all types, most
-     * likely with unpredicatable results.  Optionally, you can supply an associate
+     * likely with unpredictable results.  Optionally, you can supply an associate
      * array of format strings with the field key as the key for the format array.
      *
      * @param string|array $k A string (or an array of strings) representing the field
@@ -1378,7 +1381,7 @@ class xPDOObject {
                 elseif ($this->_fieldMeta[$_k]['phptype'] == 'timestamp' && preg_match('/int/i', $this->_fieldMeta[$_k]['dbtype'])) {
                     $fieldType= PDO::PARAM_INT;
                 }
-                elseif (!in_array($this->_fieldMeta[$_k]['phptype'], array ('string','password','datetime','timestamp','date','time','array','json'))) {
+                elseif (!in_array($this->_fieldMeta[$_k]['phptype'], array ('string','password','datetime','timestamp','date','time','array','json','float'))) {
                     $fieldType= PDO::PARAM_INT;
                 }
                 if ($this->_new) {
@@ -1400,7 +1403,7 @@ class xPDOObject {
                         $where= '';
                         foreach ($pkn as $k => $v) {
                             $vt= PDO::PARAM_INT;
-                            if ($this->_fieldMeta[$k]['phptype'] == 'string') {
+                            if (in_array($this->_fieldMeta[$k]['phptype'], array('string', 'float'))) {
                                 $vt= PDO::PARAM_STR;
                             }
                             if ($iteration) {
@@ -1414,7 +1417,7 @@ class xPDOObject {
                     } else {
                         $pkn= $this->getPK();
                         $pkt= PDO::PARAM_INT;
-                        if ($this->_fieldMeta[$pkn]['phptype'] == 'string') {
+                        if (in_array($this->_fieldMeta[$pkn]['phptype'], array('string', 'float'))) {
                             $pkt= PDO::PARAM_STR;
                         }
                         $bindings[":{$pkn}"]['value']= $pk;
@@ -1581,7 +1584,7 @@ class xPDOObject {
     /**
      * Remove the persistent instance of an object permanently.
      *
-     * Deletes the persistent object isntance stored in the database when
+     * Deletes the persistent object instance stored in the database when
      * called, including any dependent objects defined by composite foreign key
      * relationships.
      *
@@ -1605,6 +1608,7 @@ class xPDOObject {
                     }
                     if ($composite['cardinality'] === 'many') {
                         if ($many= $this->getMany($compositeAlias)) {
+                            /** @var xPDOObject $one */
                             foreach ($many as $one) {
                                 $ancestors[]= $compositeAlias;
                                 $newAncestors= $ancestors + $current;
@@ -2194,7 +2198,7 @@ class xPDOObject {
                     $criteria->andCondition($addCriteria);
                 }
                 if ($collection= $this->xpdo->getCollection($fkMeta['class'], $criteria, $cacheFlag)) {
-                    $this->_relatedObjects[$alias]= array_merge($this->_relatedObjects[$alias], $collection);
+                    $this->_relatedObjects[$alias]= array_diff_key($this->_relatedObjects[$alias], $collection) + $collection;
                 }
             }
         }

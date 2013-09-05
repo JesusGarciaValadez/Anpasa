@@ -4,6 +4,7 @@ MODx.Console = function(config) {
     Ext.applyIf(config,{
         title: _('console')
         ,modal: Ext.isIE ? false : true
+        ,closeAction: 'hide'
         ,shadow: true
         ,resizable: false
         ,collapsible: false
@@ -33,7 +34,17 @@ MODx.Console = function(config) {
             ,itemId: 'okBtn'
             ,disabled: true
             ,scope: this
-            ,handler: this.hideConsole
+            ,handler: this.hide
+        }]
+        ,keys: [{
+            key: Ext.EventObject.S
+            ,ctrl: true
+            ,fn: this.download
+            ,scope: this
+        },{
+            key: Ext.EventObject.ENTER
+            ,fn: this.hide
+            ,scope: this
         }]
     });
     MODx.Console.superclass.constructor.call(this,config);
@@ -44,6 +55,12 @@ MODx.Console = function(config) {
     });
     this.on('show',this.init,this);
     this.on('hide',function() {
+        if (this.provider && this.provider.disconnect) {
+            try {
+                this.provider.disconnect();
+            } catch (e) {}
+        }
+        this.fireEvent('shutdown');
         this.getComponent('body').el.update('');
     });
     this.on('complete',this.onComplete,this);
@@ -54,9 +71,9 @@ Ext.extend(MODx.Console,Ext.Window,{
     
     ,init: function() {
         Ext.Msg.hide();
-        this.fbar.getComponent('okBtn').setDisabled(true);
+        this.fbar.setDisabled(true);
+        this.keyMap.setDisabled(true);
         this.getComponent('body').el.dom.innerHTML = '';
-        
         this.provider = new Ext.direct.PollingProvider({
             type:'polling'
             ,url: MODx.config.connectors_url+'system/index.php'
@@ -70,23 +87,26 @@ Ext.extend(MODx.Console,Ext.Window,{
             }
         });
         Ext.Direct.addProvider(this.provider);
-        Ext.Direct.on('message', function(e,p) {
-            var out = this.getComponent('body');
-            if (out) {
-                out.el.insertHtml('beforeEnd',e.data);
-                e.data = '';
-                out.el.scroll('b', out.el.getHeight(), true);
-            }
-            if (e.complete) {
-                this.fireEvent('complete');
-            }
-            delete e;
-        },this);
+        Ext.Direct.on('message', this.onMessage, this);
+    }
+
+    ,onMessage: function(e,p) {
+        var out = this.getComponent('body');
+        if (out) {
+            out.el.insertHtml('beforeEnd',e.data);
+            e.data = '';
+            out.el.scroll('b', out.el.getHeight(), true);
+        }
+        if (e.complete) {
+            this.fireEvent('complete');
+        }
+        delete e;
     }
 
     ,onComplete: function() {
         this.provider.disconnect();
-        this.fbar.getComponent('okBtn').setDisabled(false);
+        this.fbar.setDisabled(false);
+        this.keyMap.setDisabled(false);
     }
     
     ,download: function() {
@@ -111,12 +131,6 @@ Ext.extend(MODx.Console,Ext.Window,{
     }
     
     ,hideConsole: function() {
-        if (this.provider && this.provider.disconnect) {
-            try {
-                this.provider.disconnect();
-            } catch (e) {}
-        }
-        this.fireEvent('shutdown');
         this.hide();
     }
 });

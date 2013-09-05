@@ -183,6 +183,7 @@ MODx.browser.Window = function(config) {
                 this.config.source = s;
                 this.view.config.source = s;
                 this.view.baseParams.source = s;
+                this.view.dir = '/';
                 this.view.run();
             },scope:this}
             ,'nodeclick': {fn:function(n,e) {
@@ -223,7 +224,7 @@ MODx.browser.Window = function(config) {
             ,cls: 'modx-pb-view-ct'
             ,region: 'center'
             ,autoScroll: true
-            ,width: 450
+            //,width: 635
             ,border: false
             ,items: this.view
             ,tbar: this.getToolbar()
@@ -233,9 +234,7 @@ MODx.browser.Window = function(config) {
             ,region: 'east'
             ,split: true
             ,border: false
-            ,width: 150
-            ,minWidth: 150
-            ,maxWidth: 250
+            ,width: 250
         }]
         ,buttons: [{
             id: this.ident+'-ok-btn'
@@ -300,9 +299,10 @@ Ext.extend(MODx.browser.Window,Ext.Window,{
     }
     
     ,getToolbar: function() {
-        return [{
+        return ['-', {
             text: _('filter')+':'
-        },{
+            ,xtype: 'label'
+        }, '-', {
             xtype: 'textfield'
             ,id: this.ident+'filter'
             ,selectOnFocus: true
@@ -314,9 +314,10 @@ Ext.extend(MODx.browser.Window,Ext.Window,{
                     }, this, {buffer:500});
                 }, scope:this}
             }
-        }, ' ', '-', {
+        }, '-', {
             text: _('sort_by')+':'
-        }, {
+            ,xtype: 'label'
+        }, '-', {
             id: this.ident+'sortSelect'
             ,xtype: 'combo'
             ,typeAhead: true
@@ -401,7 +402,7 @@ Ext.extend(MODx.browser.View,MODx.DataView,{
         var node = this.cm.activeNode;
         var data = this.lookup[node.id];
         var d = '';
-        if (typeof(this.dir) != 'object') { d = this.dir; }
+        if (typeof(this.dir) != 'object' && typeof(this.dir) != 'undefined') { d = this.dir; }
         MODx.msg.confirm({
             text: _('file_remove_confirm')
             ,url: MODx.config.connectors_url+'browser/file.php'
@@ -413,7 +414,7 @@ Ext.extend(MODx.browser.View,MODx.DataView,{
             }
             ,listeners: {
                 'success': {fn:function(r) {
-                    this.run({ ctx: MODx.ctx });
+                    this.run();
                 },scope:this}
             }
         });
@@ -466,8 +467,8 @@ Ext.extend(MODx.browser.View,MODx.DataView,{
     ,_initTemplates: function() {
         this.templates.thumb = new Ext.XTemplate(
             '<tpl for=".">'
-                ,'<div class="modx-pb-thumb-wrap" id="{name}">'
-                ,'<div class="modx-pb-thumb"><img src="{thumb}" title="{name}" width="90" height="90" /></div>'
+                ,'<div class="modx-pb-thumb-wrap" id="{name}" title="{name}">'
+                ,'<div class="modx-pb-thumb"><img src="{thumb}" title="{name}" /></div>'
                 ,'<span>{shortName}</span></div>'
             ,'</tpl>'
         );
@@ -476,7 +477,9 @@ Ext.extend(MODx.browser.View,MODx.DataView,{
         this.templates.details = new Ext.XTemplate(
             '<div class="details">'
             ,'<tpl for=".">'
-                ,'<div class="modx-pb-detail-thumb"><img src="{thumb}" alt="" width="80" height="60" onclick="Ext.getCmp(\''+this.ident+'\').showFullView(\'{name}\',\''+this.ident+'\'); return false;" /></div>'
+                ,'<div class="modx-pb-detail-thumb">' 
+                    ,'<img src="{thumb}" alt="" onclick="Ext.getCmp(\''+this.ident+'\').showFullView(\'{name}\',\''+this.ident+'\'); return false;" />'
+                ,'</div>'
                 ,'<div class="modx-pb-details-info">'
                 ,'<b>'+_('file_name')+':</b>'
                 ,'<span>{name}</span>'
@@ -499,7 +502,7 @@ Ext.extend(MODx.browser.View,MODx.DataView,{
     }
     ,showFullView: function(name,ident) {
         var data = this.lookup[name];
-        if (!data) return false;
+        if (!data) return;
         
         if (!this.fvWin) {
             this.fvWin = new Ext.Window({

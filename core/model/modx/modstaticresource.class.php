@@ -124,7 +124,7 @@ class modStaticResource extends modResource implements modResourceInterface {
         if ($this->getOne('ContentType')) {
             $type= $this->ContentType->get('mime_type') ? $this->ContentType->get('mime_type') : 'text/html';
             if ($this->ContentType->get('binary') || $filesize > $byte_limit) {
-                if ($alias= array_search($this->xpdo->resourceIdentifier, $this->xpdo->aliasMap)) {
+                if ($alias= $this->get('uri')) {
                     $name= basename($alias);
                 } elseif ($this->get('alias')) {
                     $name= $this->get('alias');
@@ -167,7 +167,7 @@ class modStaticResource extends modResource implements modResourceInterface {
                     }
                 }
                 @session_write_close();
-                while (@ob_end_clean()) {}
+                while (ob_get_level() && @ob_end_clean()) {}
                 readfile($file);
                 die();
             }

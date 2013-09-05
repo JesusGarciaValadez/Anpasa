@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'fd77fe3bfc270d9040dd6f2e9ab34711',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '1988a91a0062385f0cac4f24b7fb58a1',
+  'native_key' => 'password_min_length',
+  'object' => '{"key":"password_min_length","value":"8","xtype":"textfield","namespace":"core","area":"authentication","editedon":null}',
+);

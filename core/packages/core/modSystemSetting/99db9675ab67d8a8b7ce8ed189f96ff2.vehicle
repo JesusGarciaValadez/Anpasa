@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ec85ddedd693fd0cd9aa2a8cfe36cbaa',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '99db9675ab67d8a8b7ce8ed189f96ff2',
+  'native_key' => 'phpthumb_error_bgcolor',
+  'object' => '{"key":"phpthumb_error_bgcolor","value":"CCCCFF","xtype":"textfield","namespace":"core","area":"phpthumb","editedon":null}',
+);

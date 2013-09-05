@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '58eb7b6292e44a653ffcf199362e332d',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => '41ea7d3d2c99e41b832ef12197b82b62',
+  'native_key' => 'OnFileManagerUpload',
+  'object' => '{"name":"OnFileManagerUpload","service":1,"groupname":"System"}',
+);

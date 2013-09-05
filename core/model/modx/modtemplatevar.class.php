@@ -19,7 +19,7 @@
  * @property string $properties An array of default properties for this TV
  * @property string $input_properties An array of input properties related to the rendering of the input of this TV
  * @property string $output_properties An array of output properties related to the rendering of the output of this TV
- * 
+ *
  * @todo Refactor this to allow user-defined and configured input and output
  * widgets.
  * @see modTemplateVarResource
@@ -45,6 +45,13 @@ class modTemplateVar extends modElement {
     );
     /** @var modX $xpdo */
     public $xpdo;
+
+    /**
+     * A cache for modTemplateVar::getRenderDirectories()
+     * @see getRenderDirectories()
+     * @var array $_renderPaths
+     */
+    private static $_renderPaths = array();
 
     /**
      * Creates a modTemplateVar instance, and sets the token of the class to *
@@ -158,6 +165,7 @@ class modTemplateVar extends modElement {
 
             $this->_processed= true;
         }
+        $this->xpdo->parser->setProcessingElement(false);
         /* finally, return the processed element content */
         return $this->_output;
     }
@@ -488,14 +496,21 @@ class modTemplateVar extends modElement {
      * @return array The found render directories
      */
     public function getRenderDirectories($event,$subdir) {
-        $renderPath = $this->xpdo->getOption('processors_path').'element/tv/renders/'.$this->xpdo->context->get('key').'/'.$subdir.'/';
+        $context = $this->xpdo->context->get('key');
+        $renderPath = $this->xpdo->getOption('processors_path').'element/tv/renders/'.$context.'/'.$subdir.'/';
         $renderDirectories = array(
             $renderPath,
             $this->xpdo->getOption('processors_path').'element/tv/renders/'.($subdir == 'input' ? 'mgr' : 'web').'/'.$subdir.'/',
         );
         $pluginResult = $this->xpdo->invokeEvent($event,array(
-            'context' => $this->xpdo->context->get('key'),
+            'context' => $context,
         ));
+        $pathsKey = serialize($pluginResult).$context.$event.$subdir;
+        /* return cached value if exists */
+        if (isset(self::$_renderPaths[$pathsKey])) {
+            return self::$_renderPaths[$pathsKey];
+        }
+        /* process if there is no cached value */
         if (!is_array($pluginResult) && !empty($pluginResult)) { $pluginResult = array($pluginResult); }
         if (!empty($pluginResult)) {
             foreach ($pluginResult as $result) {
@@ -505,7 +520,6 @@ class modTemplateVar extends modElement {
         }
 
         /* search directories */
-        $types = array();
         $renderPaths = array();
         foreach ($renderDirectories as $renderDirectory) {
             if (empty($renderDirectory) || !is_dir($renderDirectory)) continue;
@@ -517,8 +531,8 @@ class modTemplateVar extends modElement {
                 }
             } catch (UnexpectedValueException $e) {}
         }
-        $renderPaths = array_unique($renderPaths);
-        return $renderPaths;
+        self::$_renderPaths[$pathsKey] = array_unique($renderPaths);
+        return self::$_renderPaths[$pathsKey];
     }
 
     /**
@@ -963,7 +977,7 @@ class modTemplateVar extends modElement {
                             "JOIN {$resourceGroupTable} ResourceGroup ON Acl.principal_class = 'modUserGroup' " .
                             "AND (Acl.context_key = :context OR Acl.context_key IS NULL OR Acl.context_key = '') " .
                             "AND ResourceGroup.tmplvarid = :element " .
-                            "AND ResourceGroup.documentgroup = acl.target " .
+                            "AND ResourceGroup.documentgroup = Acl.target " .
                             "ORDER BY Acl.target, Acl.principal, Acl.authority";
                     $bindings = array(
                         ':element' => $this->get('id'),
@@ -1111,7 +1125,7 @@ abstract class modTemplateVarRender {
      */
     protected function _loadLexiconTopics() {
         $topics = $this->getLexiconTopics();
-        if (!empty($topics) && !is_array($topics)) {
+        if (!empty($topics) && is_array($topics)) {
             foreach ($topics as $topic) {
                 $this->modx->lexicon->load($topic);
             }
