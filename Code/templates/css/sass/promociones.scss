@@ -1,37 +1,23 @@
 #contenido-promociones{
-min-height: 550px;
-margin: 0px auto;
-padding-bottom:170px;   /* Height of the footer */
-width: 100%;	
-}
-
-
-#contenido-promociones .titulo{
-	font-family: "euro-bold", sans-serif; 
-	color:#e77b18;
-	text-transform: uppercase;	
-	font-size:16px;
-}
-
-
-
-#contenido-promociones img{
-	float:left;
-	margin-right:15px;
-	margin-bottom:15px;
-}
-
-
-#contenido-promociones .contenidos{
-	font-family: "euro-bold", sans-serif; 
-	text-transform: uppercase;
-	font-size:16px;
-}
-
-#contenido-promociones .texto{
-	margin-top:30px;
-	font-family:Trebuchet, Tahoma;
-	color:#606e6e;
-/*	font-weight: bold;*/
-	font-size: 13px;	
+    min-height: 550px;
+    margin: 0px auto;
+    padding-bottom:170px;   /* Height of the footer */
+    width: 100%;
+    .titulo{
+        color:#e77b18;
+        font: normal 16px/1em $eurostile_bold; 
+        text-transform: uppercase;
+    }
+    img{
+        float:left;
+        margin-right:15px;
+        margin-bottom:15px;
+    }
+    .contenidos{ font: normal 16px/1em $eurostile_bold; text-transform: uppercase; }
+    .texto{
+        color:#606e6e;
+        font-family: normal 13px/1em $trebuchet;
+        /*font-weight: bold;*/
+        margin-top:30px;
+    }
 }
