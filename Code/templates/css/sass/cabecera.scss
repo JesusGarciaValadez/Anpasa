@@ -1,12 +1,41 @@
 #cabecera{ 
-    height: 150px; 
-    width: 1024px; 
-    margin: 0px auto 0px auto; 
-    .botonera{ height: 120px; width: 1024px; float:left; }
-    .centro { float:left; width:550px; padding: 50px 25px 0px 40px; }
-    .logo{ margin-left: 22px; }
-    .izquierda { float:left; margin: 0px 0px 0px 0px; }
-    .derecha { float:left; margin: 0px 0px 0px 0px; }
+    height: 150px;
+    width: 1024px;
+    margin: 0px auto 0px auto;
+    .botonera{ 
+        height: 120px;
+        width: 1024px;
+        float:left;
+        .centro { 
+            @extend .clearfix;
+            float:left;
+            padding: 50px 25px 0px 40px;
+            width:550px;
+            #wrapper_menu{
+                @extend .clearfix;
+                display: block;
+                height: 2em;
+                width: 38.57em;
+                .menu{
+                    @extend .clearfix;
+                    display: block;
+                    float: left;
+                    width: 36.57%;
+                    .menusub{ @extend .clearfix; }
+                }
+            }
+        }
+        .izquierda{
+            @extend .clearfix;
+            .logo{
+                @extend .clearfix;
+                display: block;
+                margin-left: 22px;
+            }
+        }
+        .izquierda, .derecha { float:left; margin: 0px 0px 0px 0px; }
+        .derecha{ float: right; }
+    }
     .buscador{ padding: 40px 0px 0px 0px; }
     .contacto-gris{
         font-family:Trebuchet, Tahoma;

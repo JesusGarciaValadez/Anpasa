@@ -20,7 +20,7 @@ img{ border-style: none; }
 .centrado-footer{ width: 980px; margin: 0px auto; }
 .derecha{ float:right; }
 .naranja{ color: #ed6300; }
-#contenidos{
+#contenidos,.contenidos{
     width: 950px;
     margin: 0px auto;
     min-height:600px;
@@ -40,6 +40,14 @@ img{ border-style: none; }
         font-size:25px;
         height: 60px;
         margin: 0px 0 50px 30px;
+        h1{
+            color: #474747;
+            float: left;
+            font-family: "eurostile-bold";
+            font-size: 25px;
+            height: 60px;
+            margin: 0 0 50px 30px;
+        }
     }
     .titulo-descargas{
         font-family: $eurostile_bold;
@@ -65,6 +73,7 @@ img{ border-style: none; }
         color: #606e6e;
         font-size: 14px;
         min-height: 185px;
+        
     }
     .menu{
         margin-left: 50px;

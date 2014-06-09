@@ -69,8 +69,13 @@ if (!$f_email) {
 	exit;
 }else{
 	if (filter_var($f_email, FILTER_VALIDATE_EMAIL)) {
-		mail($send_to, $send_subject, $message, $headers);
-		echo "true";
+		if ( mail($send_to, $send_subject, $message, $headers) ) {
+    		
+    		echo "true"; 
+		} else {
+    		
+    		echo "No se envió el correo";
+		}
 	}else{
 		echo "correo inválido";
 		exit;

@@ -8,7 +8,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/ie6\/borderMiddleRight.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/ie6\/borderMiddleRight.png",
       "initialSize" : 108,
       "fileType" : 8192
@@ -30,7 +30,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/cargas.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/cargas.jpg",
       "initialSize" : 17795,
       "fileType" : 4096
@@ -41,7 +41,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/slide\/derecha-1.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/slide\/derecha-1.png",
       "initialSize" : 136181,
       "fileType" : 8192
@@ -55,25 +55,13 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/templates\/css\/sass\/normalize.min.scss" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/css\/sass\/normalize.min.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/templates\/css\/normalize.min.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/templates\/img\/contenidos\/andamios\/componentes\/plataforma.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/plataforma.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/plataforma.jpg",
       "initialSize" : 15102,
       "fileType" : 4096
@@ -87,6 +75,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/templates\/img\/contenidos\/colgante.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/colgante.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/colgante.jpg",
+      "initialSize" : 62118,
+      "fileType" : 4096
+    },
     "\/templates\/css\/sass\/variables.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -98,17 +97,6 @@
       "outputAbbreviatedPath" : "\/templates\/css\/variables.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/templates\/img\/contenidos\/colgante.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/colgante.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/colgante.jpg",
-      "initialSize" : 62118,
-      "fileType" : 4096
     },
     "\/templates\/imagenes\/slide\/andamios\/derecha-2.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -127,19 +115,10 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/rehilete.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/rehilete.jpg",
       "initialSize" : 28400,
       "fileType" : 4096
-    },
-    "\/chunks\/chunks_anteriores\/anpasa\/myRowTpl.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/chunks\/chunks_anteriores\/anpasa\/myRowTpl.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/templates\/css\/sass\/cabecera.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -153,13 +132,22 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/chunks\/chunks_anteriores\/anpasa\/myRowTpl.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/chunks\/chunks_anteriores\/anpasa\/myRowTpl.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/templates\/img\/contenidos\/icono_titulo.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/icono_titulo.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/icono_titulo.jpg",
       "initialSize" : 2031,
       "fileType" : 4096
@@ -179,7 +167,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/tubular_carac.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/tubular_carac.jpg",
       "initialSize" : 71238,
       "fileType" : 4096
@@ -190,22 +178,10 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/pasamanos.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/pasamanos.jpg",
       "initialSize" : 7251,
       "fileType" : 4096
-    },
-    "\/templates\/css\/sass\/fondos.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/css\/sass\/fondos.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/templates\/css\/fondos.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/templates\/css\/fondos\/indicador_rojo.png" : {
       "ignoreWasSetByUser" : 0,
@@ -213,7 +189,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/css\/fondos\/indicador_rojo.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/css\/fondos\/indicador_rojo.png",
       "initialSize" : 1413,
       "fileType" : 8192
@@ -224,10 +200,19 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/nodo.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/nodo.jpg",
       "initialSize" : 17979,
       "fileType" : 4096
+    },
+    "\/chunks\/chunks_anteriores\/anpasa\/page.nav.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/chunks\/chunks_anteriores\/anpasa\/page.nav.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/templates\/css\/sass\/contacto.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -241,22 +226,13 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/chunks\/chunks_anteriores\/anpasa\/page.nav.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/chunks\/chunks_anteriores\/anpasa\/page.nav.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/templates\/img\/contacto\/icono_tel.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contacto\/icono_tel.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contacto\/icono_tel.png",
       "initialSize" : 2780,
       "fileType" : 8192
@@ -267,22 +243,10 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/iconos\/icono_parrayos.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/iconos\/icono_parrayos.jpg",
       "initialSize" : 1766,
       "fileType" : 4096
-    },
-    "\/templates\/css\/sass\/promociones.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/css\/sass\/promociones.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/templates\/css\/promociones.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/templates\/img\/contenidos\/jaulafadaray.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -290,7 +254,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/jaulafadaray.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/jaulafadaray.jpg",
       "initialSize" : 17803,
       "fileType" : 4096
@@ -324,7 +288,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/aparejo.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/aparejo.jpg",
       "initialSize" : 11275,
       "fileType" : 4096
@@ -346,7 +310,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/barrasdetierra.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/barrasdetierra.jpg",
       "initialSize" : 7472,
       "fileType" : 4096
@@ -381,7 +345,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contacto\/titulo_casa_matriz.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contacto\/titulo_casa_matriz.png",
       "initialSize" : 1394,
       "fileType" : 8192
@@ -392,7 +356,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/titulo_historia.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/titulo_historia.png",
       "initialSize" : 936,
       "fileType" : 8192
@@ -425,7 +389,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/botones\/b-multidireccionales.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/botones\/b-multidireccionales.png",
       "initialSize" : 4462,
       "fileType" : 8192
@@ -436,7 +400,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/slide\/andamios\/izquierda.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/slide\/andamios\/izquierda.jpg",
       "initialSize" : 65339,
       "fileType" : 4096
@@ -447,29 +411,9 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/radio.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/radio.png",
       "initialSize" : 1368,
-      "fileType" : 8192
-    },
-    "\/templates\/templates_anteriores\/anpasa\/resultados.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/templates_anteriores\/anpasa\/resultados.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/templates\/img\/submenus\/oportunidades-de-carrera_over.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/submenus\/oportunidades-de-carrera_over.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/submenus\/oportunidades-de-carrera_over.png",
-      "initialSize" : 1698,
       "fileType" : 8192
     },
     "\/templates\/js\/vendor\/jquery-1.9.0.min.js" : {
@@ -483,38 +427,14 @@
       "outputAbbreviatedPath" : "\/templates\/js\/vendor\/jquery-1.9.0.min-ck.js",
       "fileType" : 64
     },
-    "\/templates\/img\/icono_titulo.jpg" : {
+    "\/templates\/templates_anteriores\/anpasa\/resultados.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/icono_titulo.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/icono_titulo.jpg",
-      "initialSize" : 1242,
-      "fileType" : 4096
-    },
-    "\/templates\/img\/contenidos\/icono_titulo_historia.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/icono_titulo_historia.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/icono_titulo_historia.jpg",
-      "initialSize" : 1329,
-      "fileType" : 4096
-    },
-    "\/templates\/img\/fondo-cabecera.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/fondo-cabecera.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/fondo-cabecera.png",
-      "initialSize" : 434,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/templates\/templates_anteriores\/anpasa\/resultados.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/templates\/apple-touch-icon-72x72-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
@@ -527,13 +447,57 @@
       "initialSize" : 854,
       "fileType" : 8192
     },
+    "\/templates\/img\/icono_titulo.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/icono_titulo.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/icono_titulo.jpg",
+      "initialSize" : 1242,
+      "fileType" : 4096
+    },
+    "\/templates\/img\/contenidos\/icono_titulo_historia.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/icono_titulo_historia.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/icono_titulo_historia.jpg",
+      "initialSize" : 1329,
+      "fileType" : 4096
+    },
+    "\/templates\/img\/fondo-cabecera.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/fondo-cabecera.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/fondo-cabecera.png",
+      "initialSize" : 434,
+      "fileType" : 8192
+    },
+    "\/templates\/img\/submenus\/oportunidades-de-carrera_over.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/submenus\/oportunidades-de-carrera_over.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/submenus\/oportunidades-de-carrera_over.png",
+      "initialSize" : 1698,
+      "fileType" : 8192
+    },
     "\/templates\/img\/slogan-interiores.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/slogan-interiores.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/slogan-interiores.png",
       "initialSize" : 6490,
       "fileType" : 8192
@@ -562,7 +526,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/submenus\/descargas.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/submenus\/descargas.png",
       "initialSize" : 1382,
       "fileType" : 8192
@@ -584,7 +548,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/iconos\/icono_multi.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/iconos\/icono_multi.jpg",
       "initialSize" : 2613,
       "fileType" : 4096
@@ -595,7 +559,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/submenus\/catalogo_over.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/submenus\/catalogo_over.png",
       "initialSize" : 790,
       "fileType" : 8192
@@ -606,7 +570,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/submenus\/servicios_over.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/submenus\/servicios_over.png",
       "initialSize" : 849,
       "fileType" : 8192
@@ -648,21 +612,10 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/slide\/derecha-2.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/slide\/derecha-2.jpg",
       "initialSize" : 201352,
       "fileType" : 4096
-    },
-    "\/templates\/css\/images\/controls.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/css\/images\/controls.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/templates\/css\/images\/controls.png",
-      "initialSize" : 2893,
-      "fileType" : 8192
     },
     "\/templates\/js\/vendor\/jquery-1.10.1.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -675,13 +628,24 @@
       "outputAbbreviatedPath" : "\/templates\/js\/vendor\/jquery-1.10.1.min-ck.js",
       "fileType" : 64
     },
+    "\/templates\/css\/images\/controls.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/css\/images\/controls.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/css\/images\/controls.png",
+      "initialSize" : 2893,
+      "fileType" : 8192
+    },
     "\/templates\/img\/submenus\/caracteristicas_.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/submenus\/caracteristicas_.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/submenus\/caracteristicas_.png",
       "initialSize" : 1239,
       "fileType" : 8192
@@ -692,7 +656,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/botones\/radio.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/botones\/radio.png",
       "initialSize" : 1368,
       "fileType" : 8192
@@ -703,22 +667,19 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/submenus\/catalogo.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/submenus\/catalogo.png",
       "initialSize" : 1196,
       "fileType" : 8192
     },
-    "\/templates\/css\/sass\/efectos.scss" : {
+    "\/chunks\/chunks_anteriores\/anpasa\/footer-gris.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/css\/sass\/efectos.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/templates\/css\/efectos.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/chunks\/chunks_anteriores\/anpasa\/footer-gris.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/templates\/imagenes\/slide\/izquierda.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -730,15 +691,6 @@
       "outputAbbreviatedPath" : "\/templates\/imagenes\/slide\/izquierda.jpg",
       "initialSize" : 122952,
       "fileType" : 4096
-    },
-    "\/chunks\/chunks_anteriores\/anpasa\/footer-gris.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/chunks\/chunks_anteriores\/anpasa\/footer-gris.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/templates\/imagenes\/contenidos\/andamio_colgante_mecanico.png" : {
       "ignoreWasSetByUser" : 0,
@@ -773,15 +725,6 @@
       "initialSize" : 1189,
       "fileType" : 8192
     },
-    "\/templates\/templates_anteriores\/anpasa\/t-148.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/templates_anteriores\/anpasa\/t-148.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/templates\/imagenes\/submenus\/aplicaciones_over.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -793,13 +736,22 @@
       "initialSize" : 1104,
       "fileType" : 8192
     },
+    "\/templates\/templates_anteriores\/anpasa\/t-148.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/templates_anteriores\/anpasa\/t-148.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/templates\/img\/submenus\/botones\/andamios-colgantes.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/submenus\/botones\/andamios-colgantes.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/submenus\/botones\/andamios-colgantes.png",
       "initialSize" : 13752,
       "fileType" : 8192
@@ -822,6 +774,39 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/templates\/img\/pin.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/pin.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/pin.png",
+      "initialSize" : 470,
+      "fileType" : 8192
+    },
+    "\/templates\/imagenes\/fancybox\/fancybox_buttons.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/imagenes\/fancybox\/fancybox_buttons.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/imagenes\/fancybox\/fancybox_buttons.png",
+      "initialSize" : 2396,
+      "fileType" : 8192
+    },
+    "\/templates\/img\/contenidos\/titulo_organizacion.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/titulo_organizacion.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/titulo_organizacion.png",
+      "initialSize" : 1592,
+      "fileType" : 8192
+    },
     "\/templates\/imagenes\/contacto\/titulo_planta_almacen.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -831,39 +816,6 @@
       "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/imagenes\/contacto\/titulo_planta_almacen.png",
       "initialSize" : 1971,
-      "fileType" : 8192
-    },
-    "\/templates\/img\/contenidos\/sobretensiones\/sobretensiones.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sobretensiones\/sobretensiones.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sobretensiones\/sobretensiones.jpg",
-      "initialSize" : 16264,
-      "fileType" : 4096
-    },
-    "\/templates\/img\/contenidos\/sistematierras\/recto.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/recto.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/recto.jpg",
-      "initialSize" : 21008,
-      "fileType" : 4096
-    },
-    "\/templates\/img\/pin.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/pin.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/pin.png",
-      "initialSize" : 470,
       "fileType" : 8192
     },
     "\/templates\/index.html" : {
@@ -886,15 +838,15 @@
       "initialSize" : 5616,
       "fileType" : 8192
     },
-    "\/templates\/imagenes\/fancybox\/fancybox_buttons.png" : {
+    "\/templates\/imagenes\/img-promociones.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/imagenes\/fancybox\/fancybox_buttons.png",
+      "inputAbbreviatedPath" : "\/templates\/imagenes\/img-promociones.png",
       "processed" : 1,
-      "outputAbbreviatedPath" : "\/templates\/imagenes\/fancybox\/fancybox_buttons.png",
-      "initialSize" : 2396,
+      "outputAbbreviatedPath" : "\/templates\/imagenes\/img-promociones.png",
+      "initialSize" : 26938,
       "fileType" : 8192
     },
     "\/templates\/imagenes\/slide\/central-1.png" : {
@@ -917,16 +869,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/templates\/img\/contenidos\/titulo_organizacion.png" : {
+    "\/templates\/img\/contenidos\/sistematierras\/recto.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/titulo_organizacion.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/titulo_organizacion.png",
-      "initialSize" : 1592,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/recto.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/recto.jpg",
+      "initialSize" : 21008,
+      "fileType" : 4096
     },
     "\/templates\/img\/submenus\/caracteristicas.png" : {
       "ignoreWasSetByUser" : 0,
@@ -934,22 +886,10 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/submenus\/caracteristicas.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/submenus\/caracteristicas.png",
       "initialSize" : 1882,
       "fileType" : 8192
-    },
-    "\/templates\/css\/sass\/tabs.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/css\/sass\/tabs.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/templates\/css\/tabs.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/templates\/templates_anteriores\/anpasa\/t-111.html" : {
       "ignoreWasSetByUser" : 0,
@@ -960,16 +900,38 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/templates\/imagenes\/img-promociones.png" : {
+    "\/templates\/img\/contenidos\/sobretensiones\/sobretensiones.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/imagenes\/img-promociones.png",
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sobretensiones\/sobretensiones.jpg",
       "processed" : 1,
-      "outputAbbreviatedPath" : "\/templates\/imagenes\/img-promociones.png",
-      "initialSize" : 26938,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sobretensiones\/sobretensiones.jpg",
+      "initialSize" : 16264,
+      "fileType" : 4096
+    },
+    "\/templates\/img\/submenus\/oportunidades-de-carrera.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/submenus\/oportunidades-de-carrera.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/submenus\/oportunidades-de-carrera.png",
+      "initialSize" : 1724,
       "fileType" : 8192
+    },
+    "\/templates\/img\/contenidos\/PD-uniones.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/PD-uniones.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/PD-uniones.jpg",
+      "initialSize" : 12946,
+      "fileType" : 4096
     },
     "\/templates\/imagenes\/submenus\/historia-organizacion.png" : {
       "ignoreWasSetByUser" : 0,
@@ -982,27 +944,16 @@
       "initialSize" : 1522,
       "fileType" : 8192
     },
-    "\/templates\/img\/contenidos\/PD-uniones.jpg" : {
+    "\/templates\/css\/fondos\/imagen2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/PD-uniones.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/PD-uniones.jpg",
-      "initialSize" : 12946,
+      "inputAbbreviatedPath" : "\/templates\/css\/fondos\/imagen2.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/css\/fondos\/imagen2.jpg",
+      "initialSize" : 4963,
       "fileType" : 4096
-    },
-    "\/templates\/img\/submenus\/oportunidades-de-carrera.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/submenus\/oportunidades-de-carrera.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/submenus\/oportunidades-de-carrera.png",
-      "initialSize" : 1724,
-      "fileType" : 8192
     },
     "\/chunks\/chunks_anteriores\/PrettyGallery\/prettyGalleryScripts.html" : {
       "ignoreWasSetByUser" : 0,
@@ -1013,24 +964,13 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/templates\/css\/fondos\/imagen2.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/css\/fondos\/imagen2.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/css\/fondos\/imagen2.jpg",
-      "initialSize" : 4963,
-      "fileType" : 4096
-    },
     "\/templates\/img\/contenidos\/titulo_colgantes_mecanicos.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/titulo_colgantes_mecanicos.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/titulo_colgantes_mecanicos.png",
       "initialSize" : 5246,
       "fileType" : 8192
@@ -1046,17 +986,6 @@
       "initialSize" : 9401,
       "fileType" : 4096
     },
-    "\/templates\/img\/contenidos\/jaula_servicios.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/jaula_servicios.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/jaula_servicios.jpg",
-      "initialSize" : 14622,
-      "fileType" : 4096
-    },
     "\/templates\/imagenes\/submenus\/descargas.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1068,13 +997,24 @@
       "initialSize" : 1382,
       "fileType" : 8192
     },
+    "\/templates\/img\/contenidos\/jaula_servicios.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/jaula_servicios.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/jaula_servicios.jpg",
+      "initialSize" : 14622,
+      "fileType" : 4096
+    },
     "\/templates\/img\/botones\/transparente.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/botones\/transparente.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/botones\/transparente.png",
       "initialSize" : 229,
       "fileType" : 8192
@@ -1096,7 +1036,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamio_colgante_mecanico.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamio_colgante_mecanico.jpg",
       "initialSize" : 28407,
       "fileType" : 4096
@@ -1121,6 +1061,17 @@
       "initialSize" : 730,
       "fileType" : 8192
     },
+    "\/templates\/img\/botones\/b-anpasa.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/botones\/b-anpasa.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/botones\/b-anpasa.png",
+      "initialSize" : 1885,
+      "fileType" : 8192
+    },
     "\/templates\/imagenes\/contenidos\/andamio_colgante_mecanico.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1132,17 +1083,6 @@
       "initialSize" : 28407,
       "fileType" : 4096
     },
-    "\/templates\/img\/botones\/b-anpasa.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/botones\/b-anpasa.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/botones\/b-anpasa.png",
-      "initialSize" : 1885,
-      "fileType" : 8192
-    },
     "\/templates\/imagenes\/lupita.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1153,18 +1093,6 @@
       "outputAbbreviatedPath" : "\/templates\/imagenes\/lupita.png",
       "initialSize" : 737,
       "fileType" : 8192
-    },
-    "\/templates\/css\/sass\/galerias.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/css\/sass\/galerias.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/templates\/css\/galerias.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/templates\/templates_anteriores\/anpasa\/galerias.html" : {
       "ignoreWasSetByUser" : 0,
@@ -1192,7 +1120,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/fancybox\/fancybox_buttons.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/fancybox\/fancybox_buttons.png",
       "initialSize" : 2396,
       "fileType" : 8192
@@ -1263,7 +1191,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/platos.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/platos.jpg",
       "initialSize" : 7942,
       "fileType" : 4096
@@ -1274,7 +1202,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/Pescanate-1.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/Pescanate-1.jpg",
       "initialSize" : 28449,
       "fileType" : 4096
@@ -1305,19 +1233,10 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contacto\/titulo_planta_almacen.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contacto\/titulo_planta_almacen.png",
       "initialSize" : 1971,
       "fileType" : 8192
-    },
-    "\/chunks\/chunks_anteriores\/anpasa\/resultados.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/chunks\/chunks_anteriores\/anpasa\/resultados.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/templates\/img\/contenidos\/sistematierras\/tablas.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1325,32 +1244,10 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/tablas.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/tablas.jpg",
       "initialSize" : 64827,
       "fileType" : 4096
-    },
-    "\/templates\/img\/boton-ver-mas.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/boton-ver-mas.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/boton-ver-mas.png",
-      "initialSize" : 3171,
-      "fileType" : 8192
-    },
-    "\/templates\/img\/promocion_pie_derecho.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/promocion_pie_derecho.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/promocion_pie_derecho.png",
-      "initialSize" : 171926,
-      "fileType" : 8192
     },
     "\/templates\/js\/vendor\/jquery.colorbox-min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -1362,6 +1259,37 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/templates\/js\/vendor\/jquery.colorbox-min-ck.js",
       "fileType" : 64
+    },
+    "\/templates\/img\/boton-ver-mas.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/boton-ver-mas.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/boton-ver-mas.png",
+      "initialSize" : 3171,
+      "fileType" : 8192
+    },
+    "\/templates\/img\/promocion_pie_derecho.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/promocion_pie_derecho.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/promocion_pie_derecho.png",
+      "initialSize" : 171926,
+      "fileType" : 8192
+    },
+    "\/chunks\/chunks_anteriores\/anpasa\/resultados.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/chunks\/chunks_anteriores\/anpasa\/resultados.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/templates\/imagenes\/slide\/banda_slider.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1400,20 +1328,9 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/botones\/b-pararrayos.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/botones\/b-pararrayos.png",
       "initialSize" : 2880,
-      "fileType" : 8192
-    },
-    "\/templates\/img\/slide\/banda_slider.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/slide\/banda_slider.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/slide\/banda_slider.png",
-      "initialSize" : 418,
       "fileType" : 8192
     },
     "\/templates\/img\/ie6\/borderMiddleLeft.png" : {
@@ -1422,9 +1339,20 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/ie6\/borderMiddleLeft.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/ie6\/borderMiddleLeft.png",
       "initialSize" : 108,
+      "fileType" : 8192
+    },
+    "\/templates\/img\/slide\/banda_slider.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/slide\/banda_slider.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/slide\/banda_slider.png",
+      "initialSize" : 418,
       "fileType" : 8192
     },
     "\/templates\/imagenes\/contacto\/sobre.png" : {
@@ -1458,27 +1386,14 @@
       "initialSize" : 1268,
       "fileType" : 8192
     },
-    "\/templates\/img\/contenidos\/sistematierras\/proGAP.jpg" : {
+    "\/chunks\/chunks_anteriores\/anpasa\/ItemThumb.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/proGAP.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/proGAP.jpg",
-      "initialSize" : 29992,
-      "fileType" : 4096
-    },
-    "\/templates\/img\/footer.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/footer.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/footer.png",
-      "initialSize" : 47212,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/chunks\/chunks_anteriores\/anpasa\/ItemThumb.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/templates\/templates_anteriores\/anpasa\/contacto.html" : {
       "ignoreWasSetByUser" : 0,
@@ -1488,6 +1403,17 @@
       "inputAbbreviatedPath" : "\/templates\/templates_anteriores\/anpasa\/contacto.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/templates\/img\/contenidos\/sistematierras\/proGAP.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/proGAP.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/proGAP.jpg",
+      "initialSize" : 29992,
+      "fileType" : 4096
     },
     "\/templates\/css\/sass\/descargas.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1510,14 +1436,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/chunks\/chunks_anteriores\/anpasa\/ItemThumb.html" : {
+    "\/templates\/img\/footer.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/chunks\/chunks_anteriores\/anpasa\/ItemThumb.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/templates\/img\/footer.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/footer.png",
+      "initialSize" : 47212,
+      "fileType" : 8192
     },
     "\/templates\/imagenes\/interior_2.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1528,17 +1456,6 @@
       "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/imagenes\/interior_2.jpg",
       "initialSize" : 905580,
-      "fileType" : 4096
-    },
-    "\/templates\/img\/contenidos\/sistematierras\/GAP.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/GAP.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/GAP.jpg",
-      "initialSize" : 28853,
       "fileType" : 4096
     },
     "\/templates\/css\/sass\/catalogo.scss" : {
@@ -1552,6 +1469,17 @@
       "outputAbbreviatedPath" : "\/templates\/css\/catalogo.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/templates\/img\/contenidos\/sistematierras\/GAP.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/GAP.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/GAP.jpg",
+      "initialSize" : 28853,
+      "fileType" : 4096
     },
     "\/templates\/imagenes\/slide\/pararrayos\/central-1.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1570,9 +1498,42 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/icono_submenu.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/icono_submenu.jpg",
       "initialSize" : 645,
+      "fileType" : 4096
+    },
+    "\/templates\/imagenes\/contacto\/titulo_contacto.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/imagenes\/contacto\/titulo_contacto.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/imagenes\/contacto\/titulo_contacto.png",
+      "initialSize" : 1078,
+      "fileType" : 8192
+    },
+    "\/templates\/img\/modulo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/modulo.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/modulo.png",
+      "initialSize" : 193,
+      "fileType" : 8192
+    },
+    "\/templates\/imagenes\/fondo_boton_azul.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/imagenes\/fondo_boton_azul.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/imagenes\/fondo_boton_azul.jpg",
+      "initialSize" : 1173,
       "fileType" : 4096
     },
     "\/templates\/img\/contacto\/icono_sobre_contacto.jpg" : {
@@ -1581,7 +1542,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contacto\/icono_sobre_contacto.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contacto\/icono_sobre_contacto.jpg",
       "initialSize" : 1023,
       "fileType" : 4096
@@ -1597,46 +1558,13 @@
       "initialSize" : 2031,
       "fileType" : 4096
     },
-    "\/templates\/img\/modulo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/modulo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/modulo.png",
-      "initialSize" : 193,
-      "fileType" : 8192
-    },
-    "\/templates\/imagenes\/contacto\/titulo_contacto.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/imagenes\/contacto\/titulo_contacto.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/templates\/imagenes\/contacto\/titulo_contacto.png",
-      "initialSize" : 1078,
-      "fileType" : 8192
-    },
-    "\/templates\/imagenes\/fondo_boton_azul.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/imagenes\/fondo_boton_azul.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/templates\/imagenes\/fondo_boton_azul.jpg",
-      "initialSize" : 1173,
-      "fileType" : 4096
-    },
     "\/templates\/css\/fondos\/fondo.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/css\/fondos\/fondo.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/css\/fondos\/fondo.jpg",
       "initialSize" : 123416,
       "fileType" : 4096
@@ -1650,17 +1578,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/templates\/js\/vendor\/jquery.form.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/js\/vendor\/jquery.form.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/templates\/js\/vendor\/jquery.form-ck.js",
-      "fileType" : 64
-    },
     "\/templates\/imagenes\/submenus\/aplicaciones.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1672,13 +1589,24 @@
       "initialSize" : 1571,
       "fileType" : 8192
     },
+    "\/templates\/js\/vendor\/jquery.form.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/js\/vendor\/jquery.form.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/templates\/js\/vendor\/jquery.form-ck.js",
+      "fileType" : 64
+    },
     "\/templates\/img\/promocion_torre.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/promocion_torre.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/promocion_torre.jpg",
       "initialSize" : 70154,
       "fileType" : 4096
@@ -1689,7 +1617,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/loading_background.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/loading_background.png",
       "initialSize" : 157,
       "fileType" : 8192
@@ -1705,16 +1633,16 @@
       "initialSize" : 434,
       "fileType" : 8192
     },
-    "\/templates\/img\/slide\/izquierda.jpg" : {
+    "\/templates\/img\/ie6\/borderBottomCenter.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/slide\/izquierda.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/slide\/izquierda.jpg",
-      "initialSize" : 122952,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/templates\/img\/ie6\/borderBottomCenter.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/ie6\/borderBottomCenter.png",
+      "initialSize" : 111,
+      "fileType" : 8192
     },
     "\/templates\/img\/submenus\/caracteristicas_over.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1722,21 +1650,21 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/submenus\/caracteristicas_over.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/submenus\/caracteristicas_over.png",
       "initialSize" : 2022,
       "fileType" : 8192
     },
-    "\/templates\/img\/ie6\/borderBottomCenter.png" : {
+    "\/templates\/img\/slide\/izquierda.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/ie6\/borderBottomCenter.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/ie6\/borderBottomCenter.png",
-      "initialSize" : 111,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/templates\/img\/slide\/izquierda.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/slide\/izquierda.jpg",
+      "initialSize" : 122952,
+      "fileType" : 4096
     },
     "\/templates\/img\/fondo_boton_azul.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1744,7 +1672,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/fondo_boton_azul.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/fondo_boton_azul.jpg",
       "initialSize" : 1173,
       "fileType" : 4096
@@ -1760,18 +1688,6 @@
       "initialSize" : 117102,
       "fileType" : 4096
     },
-    "\/templates\/css\/sass\/breadcrumbs.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/css\/sass\/breadcrumbs.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/templates\/css\/breadcrumbs.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/templates\/imagenes\/contenidos\/titulo_colgantes_mecanicos.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1783,16 +1699,17 @@
       "initialSize" : 5246,
       "fileType" : 8192
     },
-    "\/templates\/imagenes\/submenus\/caracteristicas_.png" : {
+    "\/templates\/css\/sass\/breadcrumbs.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/imagenes\/submenus\/caracteristicas_.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/templates\/imagenes\/submenus\/caracteristicas_.png",
-      "initialSize" : 1239,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/templates\/css\/sass\/breadcrumbs.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/templates\/css\/breadcrumbs.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/templates\/js\/vendor\/jquery.validate.js" : {
       "ignoreWasSetByUser" : 1,
@@ -1805,16 +1722,27 @@
       "outputAbbreviatedPath" : "\/templates\/js\/vendor\/jquery.validate-ck.js",
       "fileType" : 64
     },
-    "\/templates\/img\/contenidos\/titulo_colgantes_electricos.png" : {
+    "\/templates\/imagenes\/submenus\/caracteristicas_.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/titulo_colgantes_electricos.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/titulo_colgantes_electricos.png",
-      "initialSize" : 4608,
+      "inputAbbreviatedPath" : "\/templates\/imagenes\/submenus\/caracteristicas_.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/imagenes\/submenus\/caracteristicas_.png",
+      "initialSize" : 1239,
       "fileType" : 8192
+    },
+    "\/templates\/img\/contenidos\/PLATAFORMA2.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/PLATAFORMA2.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/PLATAFORMA2.jpg",
+      "initialSize" : 15744,
+      "fileType" : 4096
     },
     "\/templates\/img\/contenidos\/servicio.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1822,7 +1750,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/servicio.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/servicio.jpg",
       "initialSize" : 69159,
       "fileType" : 4096
@@ -1833,20 +1761,9 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/tubular.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/tubular.jpg",
       "initialSize" : 19984,
-      "fileType" : 4096
-    },
-    "\/templates\/img\/contenidos\/sistema.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistema.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistema.jpg",
-      "initialSize" : 78398,
       "fileType" : 4096
     },
     "\/templates\/imagenes\/contenidos\/titulo_historia.png" : {
@@ -1860,15 +1777,26 @@
       "initialSize" : 936,
       "fileType" : 8192
     },
-    "\/templates\/img\/contenidos\/PLATAFORMA2.jpg" : {
+    "\/templates\/img\/contenidos\/titulo_colgantes_electricos.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/PLATAFORMA2.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/PLATAFORMA2.jpg",
-      "initialSize" : 15744,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/titulo_colgantes_electricos.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/titulo_colgantes_electricos.png",
+      "initialSize" : 4608,
+      "fileType" : 8192
+    },
+    "\/templates\/img\/contenidos\/sistema.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistema.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistema.jpg",
+      "initialSize" : 78398,
       "fileType" : 4096
     },
     "\/templates\/img\/icons\/tabs\/tabs-bg.png" : {
@@ -1899,7 +1827,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/submenus\/historia-organizacion.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/submenus\/historia-organizacion.png",
       "initialSize" : 1522,
       "fileType" : 8192
@@ -1910,7 +1838,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/pruebas.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/pruebas.jpg",
       "initialSize" : 36429,
       "fileType" : 4096
@@ -1945,19 +1873,10 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/ie6\/borderBottomLeft.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/ie6\/borderBottomLeft.png",
       "initialSize" : 215,
       "fileType" : 8192
-    },
-    "\/templates\/templates_anteriores\/anpasa\/t-107.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/templates_anteriores\/anpasa\/t-107.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/templates\/css\/sass\/colorbox.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1991,6 +1910,15 @@
       "initialSize" : 1196,
       "fileType" : 8192
     },
+    "\/templates\/templates_anteriores\/anpasa\/t-107.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/templates_anteriores\/anpasa\/t-107.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/templates\/imagenes\/submenus\/caracteristicas_over.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2008,7 +1936,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/encabezado-noticias.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/encabezado-noticias.png",
       "initialSize" : 3746,
       "fileType" : 8192
@@ -2019,7 +1947,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/slider_overlay.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/slider_overlay.png",
       "initialSize" : 246,
       "fileType" : 8192
@@ -2033,16 +1961,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/templates\/img\/ie6\/borderTopLeft.png" : {
+    "\/chunks\/chunks_anteriores\/anpasa\/menu2.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/ie6\/borderTopLeft.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/ie6\/borderTopLeft.png",
-      "initialSize" : 216,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/chunks\/chunks_anteriores\/anpasa\/menu2.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/chunks\/chunks_anteriores\/anpasa\/SimpleSearch-bak.html" : {
       "ignoreWasSetByUser" : 0,
@@ -2053,14 +1979,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/chunks\/chunks_anteriores\/anpasa\/menu2.html" : {
+    "\/templates\/img\/ie6\/borderTopLeft.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/chunks\/chunks_anteriores\/anpasa\/menu2.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/templates\/img\/ie6\/borderTopLeft.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/ie6\/borderTopLeft.png",
+      "initialSize" : 216,
+      "fileType" : 8192
     },
     "\/templates\/img\/contenidos\/andamios\/componentes\/liras12.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2068,7 +1996,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/liras12.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/liras12.jpg",
       "initialSize" : 13788,
       "fileType" : 4096
@@ -2110,7 +2038,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/fondo_pagina.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/fondo_pagina.jpg",
       "initialSize" : 1477,
       "fileType" : 4096
@@ -2142,16 +2070,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/templates\/imagenes\/contacto\/icono_tel.png" : {
+    "\/templates\/img\/contenidos\/sistematierras\/tierras.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/imagenes\/contacto\/icono_tel.png",
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/tierras.jpg",
       "processed" : 1,
-      "outputAbbreviatedPath" : "\/templates\/imagenes\/contacto\/icono_tel.png",
-      "initialSize" : 2780,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/tierras.jpg",
+      "initialSize" : 72759,
+      "fileType" : 4096
     },
     "\/templates\/img\/contenidos\/PD-Ajuste.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2159,7 +2087,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/PD-Ajuste.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/PD-Ajuste.jpg",
       "initialSize" : 19122,
       "fileType" : 4096
@@ -2170,20 +2098,9 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/contrapeso.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/contrapeso.jpg",
       "initialSize" : 14187,
-      "fileType" : 4096
-    },
-    "\/templates\/img\/contenidos\/sistematierras\/tierras.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/tierras.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/tierras.jpg",
-      "initialSize" : 72759,
       "fileType" : 4096
     },
     "\/templates\/img\/banner_tierras.jpg" : {
@@ -2192,10 +2109,21 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/banner_tierras.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/banner_tierras.jpg",
       "initialSize" : 38628,
       "fileType" : 4096
+    },
+    "\/templates\/imagenes\/contacto\/icono_tel.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/imagenes\/contacto\/icono_tel.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/imagenes\/contacto\/icono_tel.png",
+      "initialSize" : 2780,
+      "fileType" : 8192
     },
     "\/templates\/imagenes\/slide\/pararrayos\/central.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2214,7 +2142,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/torre-promo.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/torre-promo.png",
       "initialSize" : 59265,
       "fileType" : 8192
@@ -2225,7 +2153,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/iconos\/icono_andamio.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/iconos\/icono_andamio.jpg",
       "initialSize" : 1934,
       "fileType" : 4096
@@ -2245,7 +2173,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/botones\/enviar.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/botones\/enviar.png",
       "initialSize" : 1859,
       "fileType" : 8192
@@ -2261,59 +2189,6 @@
       "initialSize" : 17194,
       "fileType" : 8192
     },
-    "\/templates\/imagenes\/contenidos\/titulo_colgantes_electricos.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/imagenes\/contenidos\/titulo_colgantes_electricos.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/templates\/imagenes\/contenidos\/titulo_colgantes_electricos.png",
-      "initialSize" : 4608,
-      "fileType" : 8192
-    },
-    "\/templates\/templates_anteriores\/anpasa\/t-75.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/templates_anteriores\/anpasa\/t-75.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/templates\/img\/contenidos\/punta.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/punta.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/punta.jpg",
-      "initialSize" : 31384,
-      "fileType" : 4096
-    },
-    "\/templates\/img\/contenidos\/historia-1.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/historia-1.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/historia-1.png",
-      "initialSize" : 123416,
-      "fileType" : 8192
-    },
-    "\/templates\/img\/contenidos\/sistematierras\/recto2.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/recto2.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/recto2.jpg",
-      "initialSize" : 13516,
-      "fileType" : 4096
-    },
     "\/templates\/css\/sass\/modulos.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2326,17 +2201,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/templates\/imagenes\/slogan.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/imagenes\/slogan.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/templates\/imagenes\/slogan.png",
-      "initialSize" : 10074,
-      "fileType" : 8192
-    },
     "\/templates\/css\/sass\/normalize.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2348,6 +2212,70 @@
       "outputAbbreviatedPath" : "\/templates\/css\/normalize.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/templates\/img\/contenidos\/historia-1.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/historia-1.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/historia-1.png",
+      "initialSize" : 123416,
+      "fileType" : 8192
+    },
+    "\/templates\/img\/contenidos\/punta.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/punta.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/punta.jpg",
+      "initialSize" : 31384,
+      "fileType" : 4096
+    },
+    "\/templates\/img\/contenidos\/sistematierras\/recto2.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/recto2.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/recto2.jpg",
+      "initialSize" : 13516,
+      "fileType" : 4096
+    },
+    "\/templates\/templates_anteriores\/anpasa\/t-75.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/templates_anteriores\/anpasa\/t-75.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/templates\/imagenes\/slogan.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/imagenes\/slogan.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/imagenes\/slogan.png",
+      "initialSize" : 10074,
+      "fileType" : 8192
+    },
+    "\/templates\/imagenes\/contenidos\/titulo_colgantes_electricos.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/imagenes\/contenidos\/titulo_colgantes_electricos.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/imagenes\/contenidos\/titulo_colgantes_electricos.png",
+      "initialSize" : 4608,
+      "fileType" : 8192
     },
     "\/templates\/img\/common\/box-corners.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2366,7 +2294,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/CABLE.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/CABLE.jpg",
       "initialSize" : 18362,
       "fileType" : 4096
@@ -2377,7 +2305,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/submenus\/nuestra-mision.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/submenus\/nuestra-mision.png",
       "initialSize" : 1185,
       "fileType" : 8192
@@ -2404,28 +2332,6 @@
       "initialSize" : 1185,
       "fileType" : 8192
     },
-    "\/templates\/img\/submenus\/nuestra-mision_over.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/submenus\/nuestra-mision_over.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/submenus\/nuestra-mision_over.png",
-      "initialSize" : 1200,
-      "fileType" : 8192
-    },
-    "\/templates\/img\/slide\/central-1.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/slide\/central-1.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/slide\/central-1.png",
-      "initialSize" : 66439,
-      "fileType" : 8192
-    },
     "\/templates\/imagenes\/contenidos\/titulo_organizacion.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2435,6 +2341,17 @@
       "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/imagenes\/contenidos\/titulo_organizacion.png",
       "initialSize" : 1592,
+      "fileType" : 8192
+    },
+    "\/templates\/img\/slide\/central-1.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/slide\/central-1.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/slide\/central-1.png",
+      "initialSize" : 66439,
       "fileType" : 8192
     },
     "\/templates\/imagenes\/slide\/pararrayos\/derecha-1.png" : {
@@ -2459,13 +2376,24 @@
       "initialSize" : 3746,
       "fileType" : 8192
     },
+    "\/templates\/img\/submenus\/nuestra-mision_over.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/submenus\/nuestra-mision_over.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/submenus\/nuestra-mision_over.png",
+      "initialSize" : 1200,
+      "fileType" : 8192
+    },
     "\/templates\/img\/slide\/andamios\/central-2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/slide\/andamios\/central-2.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/slide\/andamios\/central-2.jpg",
       "initialSize" : 45315,
       "fileType" : 4096
@@ -2476,20 +2404,20 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/botones\/b-andamios.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/botones\/b-andamios.png",
       "initialSize" : 2452,
       "fileType" : 8192
     },
-    "\/templates\/img\/contenidos\/andamios\/componentes\/mecanismo_traccion.jpg" : {
+    "\/templates\/img\/contenidos\/aplicacion.JPG" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/mecanismo_traccion.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/mecanismo_traccion.jpg",
-      "initialSize" : 15264,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/aplicacion.JPG",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/aplicacion.JPG",
+      "initialSize" : 35259,
       "fileType" : 4096
     },
     "\/templates\/js\/vendor\/jquery-1.8.3.min.js" : {
@@ -2503,15 +2431,15 @@
       "outputAbbreviatedPath" : "\/templates\/js\/vendor\/jquery-1.8.3.min-ck.js",
       "fileType" : 64
     },
-    "\/templates\/img\/contenidos\/aplicacion.JPG" : {
+    "\/templates\/img\/contenidos\/andamios\/componentes\/mecanismo_traccion.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/aplicacion.JPG",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/aplicacion.JPG",
-      "initialSize" : 35259,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/mecanismo_traccion.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/mecanismo_traccion.jpg",
+      "initialSize" : 15264,
       "fileType" : 4096
     },
     "\/templates\/img\/submenus\/aplicaciones_over.png" : {
@@ -2520,21 +2448,21 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/submenus\/aplicaciones_over.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/submenus\/aplicaciones_over.png",
       "initialSize" : 1104,
       "fileType" : 8192
     },
-    "\/templates\/img\/img-noticias.png" : {
+    "\/templates\/img\/contenidos\/servicios.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/img-noticias.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/img-noticias.png",
-      "initialSize" : 47429,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/servicios.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/servicios.jpg",
+      "initialSize" : 35986,
+      "fileType" : 4096
     },
     "\/templates\/img\/contenidos\/andamio-colgante-electrico.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2542,7 +2470,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamio-colgante-electrico.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamio-colgante-electrico.jpg",
       "initialSize" : 22439,
       "fileType" : 4096
@@ -2556,28 +2484,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/templates\/css\/sass\/colores.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/css\/sass\/colores.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/templates\/css\/colores.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/templates\/img\/contenidos\/servicios.jpg" : {
+    "\/templates\/img\/img-noticias.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/servicios.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/servicios.jpg",
-      "initialSize" : 35986,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/templates\/img\/img-noticias.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/img-noticias.png",
+      "initialSize" : 47429,
+      "fileType" : 8192
     },
     "\/chunks\/chunks_anteriores\/anpasa\/catalogo.html" : {
       "ignoreWasSetByUser" : 0,
@@ -2594,7 +2510,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/Barra de Tierras.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/Barra de Tierras.jpg",
       "initialSize" : 6628,
       "fileType" : 4096
@@ -2605,7 +2521,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/twitter.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/twitter.png",
       "initialSize" : 1394,
       "fileType" : 8192
@@ -2630,13 +2546,24 @@
       "initialSize" : 12919,
       "fileType" : 8192
     },
+    "\/templates\/img\/contenidos\/historia.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/historia.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/historia.png",
+      "initialSize" : 78958,
+      "fileType" : 8192
+    },
     "\/templates\/img\/slide\/andamios\/central-1.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/slide\/andamios\/central-1.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/slide\/andamios\/central-1.png",
       "initialSize" : 32246,
       "fileType" : 8192
@@ -2652,16 +2579,16 @@
       "initialSize" : 11985,
       "fileType" : 8192
     },
-    "\/templates\/img\/contenidos\/historia.png" : {
+    "\/templates\/img\/contenidos\/andamios\/componentes\/sin_imagen.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/historia.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/historia.png",
-      "initialSize" : 78958,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/sin_imagen.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/sin_imagen.jpg",
+      "initialSize" : 5059,
+      "fileType" : 4096
     },
     "\/chunks\/chunks_anteriores\/anpasa\/AlbumRowTpl.html" : {
       "ignoreWasSetByUser" : 0,
@@ -2672,24 +2599,13 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/templates\/img\/contenidos\/andamios\/componentes\/sin_imagen.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/sin_imagen.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/sin_imagen.jpg",
-      "initialSize" : 5059,
-      "fileType" : 4096
-    },
     "\/templates\/img\/contenidos\/multidireccinal.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/multidireccinal.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/multidireccinal.jpg",
       "initialSize" : 86130,
       "fileType" : 4096
@@ -2700,7 +2616,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/ie6\/borderTopRight.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/ie6\/borderTopRight.png",
       "initialSize" : 214,
       "fileType" : 8192
@@ -2729,7 +2645,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/submenus\/aplicaciones.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/submenus\/aplicaciones.png",
       "initialSize" : 1571,
       "fileType" : 8192
@@ -2749,7 +2665,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/L.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/L.jpg",
       "initialSize" : 12845,
       "fileType" : 4096
@@ -2776,25 +2692,13 @@
       "initialSize" : 393517,
       "fileType" : 8192
     },
-    "\/templates\/css\/sass\/posiciones.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/css\/sass\/posiciones.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/templates\/css\/posiciones.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/templates\/img\/contenidos\/torre_ligera.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/torre_ligera.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/torre_ligera.jpg",
       "initialSize" : 56410,
       "fileType" : 4096
@@ -2819,17 +2723,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/templates\/img\/ie6\/borderTopCenter.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/ie6\/borderTopCenter.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/ie6\/borderTopCenter.png",
-      "initialSize" : 111,
-      "fileType" : 8192
-    },
     "\/templates\/imagenes\/fancybox\/fancybox_sprite.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2841,13 +2734,24 @@
       "initialSize" : 2750,
       "fileType" : 8192
     },
+    "\/templates\/img\/ie6\/borderTopCenter.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/ie6\/borderTopCenter.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/ie6\/borderTopCenter.png",
+      "initialSize" : 111,
+      "fileType" : 8192
+    },
     "\/templates\/img\/cabecera.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/cabecera.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/cabecera.png",
       "initialSize" : 51389,
       "fileType" : 8192
@@ -2858,7 +2762,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/iconos\/icono_anpasa.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/iconos\/icono_anpasa.jpg",
       "initialSize" : 2512,
       "fileType" : 4096
@@ -2869,7 +2773,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/descargas.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/descargas.png",
       "initialSize" : 1530,
       "fileType" : 8192
@@ -2880,7 +2784,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/slide\/central-2.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/slide\/central-2.jpg",
       "initialSize" : 112602,
       "fileType" : 4096
@@ -2902,7 +2806,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/submenus\/servicios.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/submenus\/servicios.png",
       "initialSize" : 1267,
       "fileType" : 8192
@@ -2922,7 +2826,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/bala-noticias.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/bala-noticias.png",
       "initialSize" : 11985,
       "fileType" : 8192
@@ -2955,7 +2859,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/estribo.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/estribo.jpg",
       "initialSize" : 8050,
       "fileType" : 4096
@@ -2966,7 +2870,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/pescantes.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/pescantes.jpg",
       "initialSize" : 7488,
       "fileType" : 4096
@@ -2988,7 +2892,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contacto\/titulo_contacto.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contacto\/titulo_contacto.png",
       "initialSize" : 1078,
       "fileType" : 8192
@@ -2999,7 +2903,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/ventajas.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/ventajas.jpg",
       "initialSize" : 85078,
       "fileType" : 4096
@@ -3010,7 +2914,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/img-promociones.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/img-promociones.png",
       "initialSize" : 32653,
       "fileType" : 8192
@@ -3021,7 +2925,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/facebook.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/facebook.png",
       "initialSize" : 1268,
       "fileType" : 8192
@@ -3035,6 +2939,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/templates\/img\/contenidos\/andamios\/componentes\/liras.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/liras.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/liras.jpg",
+      "initialSize" : 10359,
+      "fileType" : 4096
+    },
     "\/templates\/css\/sass\/footer.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -3047,27 +2962,27 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/templates\/img\/contenidos\/andamios\/componentes\/liras.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/liras.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/liras.jpg",
-      "initialSize" : 10359,
-      "fileType" : 4096
-    },
     "\/templates\/img\/buscador.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/buscador.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/buscador.png",
       "initialSize" : 13193,
       "fileType" : 8192
+    },
+    "\/templates\/js\/vendor\/slider.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/js\/vendor\/slider.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/templates\/js\/vendor\/slider-ck.js",
+      "fileType" : 64
     },
     "\/templates\/img\/controls.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3075,7 +2990,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/controls.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/controls.png",
       "initialSize" : 2893,
       "fileType" : 8192
@@ -3128,7 +3043,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/submenus\/galeria_over.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/submenus\/galeria_over.png",
       "initialSize" : 747,
       "fileType" : 8192
@@ -3139,7 +3054,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamio_colgante_mecanico.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamio_colgante_mecanico.png",
       "initialSize" : 87043,
       "fileType" : 8192
@@ -3150,21 +3065,10 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/CAJA2.JPG",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/CAJA2.JPG",
       "initialSize" : 32301,
       "fileType" : 4096
-    },
-    "\/templates\/imagenes\/slogan-interiores.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/imagenes\/slogan-interiores.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/templates\/imagenes\/slogan-interiores.png",
-      "initialSize" : 6490,
-      "fileType" : 8192
     },
     "\/templates\/js\/vendor\/prefixfree.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -3177,6 +3081,17 @@
       "outputAbbreviatedPath" : "\/templates\/js\/vendor\/prefixfree.min-ck.js",
       "fileType" : 64
     },
+    "\/templates\/imagenes\/slogan-interiores.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/imagenes\/slogan-interiores.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/imagenes\/slogan-interiores.png",
+      "initialSize" : 6490,
+      "fileType" : 8192
+    },
     "\/templates\/imagenes\/contenidos\/historia.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3188,14 +3103,16 @@
       "initialSize" : 18794,
       "fileType" : 4096
     },
-    "\/templates\/css\/normalize.css" : {
+    "\/templates\/imagenes\/modulo.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/css\/normalize.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/templates\/imagenes\/modulo.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/imagenes\/modulo.png",
+      "initialSize" : 193,
+      "fileType" : 8192
     },
     "\/templates\/css\/images\/overlay.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3208,16 +3125,14 @@
       "initialSize" : 182,
       "fileType" : 8192
     },
-    "\/templates\/imagenes\/modulo.png" : {
+    "\/templates\/css\/normalize.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/imagenes\/modulo.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/templates\/imagenes\/modulo.png",
-      "initialSize" : 193,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/templates\/css\/normalize.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/templates\/imagenes\/fondo_pagina.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -3247,7 +3162,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/iconos\/icono_tubulares.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/iconos\/icono_tubulares.jpg",
       "initialSize" : 2259,
       "fileType" : 4096
@@ -3258,7 +3173,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/pasador.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/pasador.jpg",
       "initialSize" : 13378,
       "fileType" : 4096
@@ -3269,7 +3184,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/submenus\/historia-organizacion_over.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/submenus\/historia-organizacion_over.png",
       "initialSize" : 1721,
       "fileType" : 8192
@@ -3311,7 +3226,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/ESTRIBO2.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/ESTRIBO2.jpg",
       "initialSize" : 19274,
       "fileType" : 4096
@@ -3333,7 +3248,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sobretensiones\/supresores.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sobretensiones\/supresores.jpg",
       "initialSize" : 18183,
       "fileType" : 4096
@@ -3353,7 +3268,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/CABLE2.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/CABLE2.jpg",
       "initialSize" : 28772,
       "fileType" : 4096
@@ -3364,7 +3279,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/botones\/b-contacto.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/botones\/b-contacto.png",
       "initialSize" : 2305,
       "fileType" : 8192
@@ -3375,7 +3290,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/interior_1.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/interior_1.jpg",
       "initialSize" : 491994,
       "fileType" : 4096
@@ -3406,7 +3321,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/ie6\/borderBottomRight.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/ie6\/borderBottomRight.png",
       "initialSize" : 217,
       "fileType" : 8192
@@ -3417,7 +3332,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/enviar.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/enviar.png",
       "initialSize" : 1859,
       "fileType" : 8192
@@ -3428,7 +3343,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/plataforma_escalera.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/plataforma_escalera.jpg",
       "initialSize" : 8116,
       "fileType" : 4096
@@ -3439,7 +3354,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/css\/fondos\/indicador_gris.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/css\/fondos\/indicador_gris.png",
       "initialSize" : 1318,
       "fileType" : 8192
@@ -3466,16 +3381,16 @@
       "outputAbbreviatedPath" : "\/templates\/js\/vendor\/jquery.validate.min-ck.js",
       "fileType" : 64
     },
-    "\/templates\/img\/punto-ciudades.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/templates\/js\/vendor\/slider-fijo.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/punto-ciudades.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/punto-ciudades.png",
-      "initialSize" : 235,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/templates\/js\/vendor\/slider-fijo.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/templates\/js\/vendor\/slider-fijo-ck.js",
+      "fileType" : 64
     },
     "\/chunks\/chunks_anteriores\/DemoGalItemThumb.html" : {
       "ignoreWasSetByUser" : 0,
@@ -3497,6 +3412,17 @@
       "initialSize" : 13752,
       "fileType" : 8192
     },
+    "\/templates\/img\/punto-ciudades.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/punto-ciudades.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/punto-ciudades.png",
+      "initialSize" : 235,
+      "fileType" : 8192
+    },
     "\/templates\/home.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3505,6 +3431,17 @@
       "inputAbbreviatedPath" : "\/templates\/home.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/templates\/img\/contenidos.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos.png",
+      "initialSize" : 132889,
+      "fileType" : 8192
     },
     "\/templates\/apple-touch-icon.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3515,6 +3452,17 @@
       "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/apple-touch-icon.png",
       "initialSize" : 730,
+      "fileType" : 8192
+    },
+    "\/templates\/img\/submenus\/descargas_over.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/submenus\/descargas_over.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/submenus\/descargas_over.png",
+      "initialSize" : 942,
       "fileType" : 8192
     },
     "\/templates\/imagenes\/slide\/derecha-1.png" : {
@@ -3528,28 +3476,6 @@
       "initialSize" : 136181,
       "fileType" : 8192
     },
-    "\/templates\/img\/submenus\/descargas_over.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/submenus\/descargas_over.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/submenus\/descargas_over.png",
-      "initialSize" : 942,
-      "fileType" : 8192
-    },
-    "\/templates\/img\/contenidos.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos.png",
-      "initialSize" : 132889,
-      "fileType" : 8192
-    },
     "\/chunks\/chunks_anteriores\/BreadCrumb\/linkCrumbTpl.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3559,39 +3485,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/templates\/css\/sass\/style.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/css\/sass\/style.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/templates\/css\/style.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/templates\/img\/border.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/border.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/border.png",
       "initialSize" : 112,
       "fileType" : 8192
-    },
-    "\/templates\/img\/contenidos\/sobretensiones\/indelec.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sobretensiones\/indelec.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sobretensiones\/indelec.jpg",
-      "initialSize" : 16965,
-      "fileType" : 4096
     },
     "\/templates\/imagenes\/submenus\/oportunidades-de-carrera.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3604,15 +3507,15 @@
       "initialSize" : 1724,
       "fileType" : 8192
     },
-    "\/templates\/img\/contenidos\/servicios_puntas.jpg" : {
+    "\/templates\/img\/contenidos\/sobretensiones\/indelec.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/servicios_puntas.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/servicios_puntas.jpg",
-      "initialSize" : 20387,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sobretensiones\/indelec.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sobretensiones\/indelec.jpg",
+      "initialSize" : 16965,
       "fileType" : 4096
     },
     "\/templates\/templates_anteriores\/anpasa\/t-18.html" : {
@@ -3624,13 +3527,24 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/templates\/img\/contenidos\/servicios_puntas.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/servicios_puntas.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/servicios_puntas.jpg",
+      "initialSize" : 20387,
+      "fileType" : 4096
+    },
     "\/templates\/img\/contenidos\/radios.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/radios.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/radios.jpg",
       "initialSize" : 79524,
       "fileType" : 4096
@@ -3641,7 +3555,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/slogan.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/slogan.png",
       "initialSize" : 10074,
       "fileType" : 8192
@@ -3652,7 +3566,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/caja_de_seguridad.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/caja_de_seguridad.jpg",
       "initialSize" : 20691,
       "fileType" : 4096
@@ -3663,7 +3577,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/compartir.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/compartir.png",
       "initialSize" : 2435,
       "fileType" : 8192
@@ -3692,7 +3606,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/historia.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/historia.jpg",
       "initialSize" : 18794,
       "fileType" : 4096
@@ -3723,22 +3637,10 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/overlay.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/overlay.png",
       "initialSize" : 182,
       "fileType" : 8192
-    },
-    "\/templates\/css\/sass\/noticias.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/css\/sass\/noticias.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/templates\/css\/noticias.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/templates\/img\/contenidos\/sistematierras\/Tierras2.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -3746,7 +3648,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/Tierras2.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/Tierras2.jpg",
       "initialSize" : 99520,
       "fileType" : 4096
@@ -3768,7 +3670,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/slide\/andamios\/derecha-2.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/slide\/andamios\/derecha-2.jpg",
       "initialSize" : 74772,
       "fileType" : 4096
@@ -3802,7 +3704,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/piederecho.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/piederecho.jpg",
       "initialSize" : 109074,
       "fileType" : 4096
@@ -3853,7 +3755,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/css\/fondos\/fondo3.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/css\/fondos\/fondo3.png",
       "initialSize" : 1264,
       "fileType" : 8192
@@ -3864,7 +3766,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/encabezado-promociones.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/encabezado-promociones.png",
       "initialSize" : 5616,
       "fileType" : 8192
@@ -3887,7 +3789,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/ventajas.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/sistematierras\/ventajas.jpg",
       "initialSize" : 22485,
       "fileType" : 4096
@@ -3907,7 +3809,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/base.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/base.jpg",
       "initialSize" : 13067,
       "fileType" : 4096
@@ -3923,16 +3825,16 @@
       "initialSize" : 1242,
       "fileType" : 4096
     },
-    "\/templates\/js\/main-ck.js" : {
+    "\/templates\/img\/fancybox\/fancybox_sprite.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/js\/main-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/templates\/js\/main-ck-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/templates\/img\/fancybox\/fancybox_sprite.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/fancybox\/fancybox_sprite.png",
+      "initialSize" : 2750,
+      "fileType" : 8192
     },
     "\/templates\/js\/vendor\/jquery.validate-ck.js" : {
       "ignoreWasSetByUser" : 0,
@@ -3956,28 +3858,6 @@
       "outputAbbreviatedPath" : "\/templates\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min-ck.js",
       "fileType" : 64
     },
-    "\/templates\/img\/slide\/andamios\/derecha-1.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/slide\/andamios\/derecha-1.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/slide\/andamios\/derecha-1.png",
-      "initialSize" : 35974,
-      "fileType" : 8192
-    },
-    "\/templates\/img\/fancybox\/fancybox_sprite.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/img\/fancybox\/fancybox_sprite.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/templates\/img\/fancybox\/fancybox_sprite.png",
-      "initialSize" : 2750,
-      "fileType" : 8192
-    },
     "\/templates\/img\/common\/footer_bg.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3995,10 +3875,32 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/cuadro-electrico.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/andamios\/componentes\/cuadro-electrico.jpg",
       "initialSize" : 13741,
       "fileType" : 4096
+    },
+    "\/templates\/js\/main-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/js\/main-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/templates\/js\/main-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/templates\/img\/slide\/andamios\/derecha-1.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/img\/slide\/andamios\/derecha-1.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/img\/slide\/andamios\/derecha-1.png",
+      "initialSize" : 35974,
+      "fileType" : 8192
     },
     "\/templates\/img\/submenus\/galeria.png" : {
       "ignoreWasSetByUser" : 0,
@@ -4006,7 +3908,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/submenus\/galeria.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/submenus\/galeria.png",
       "initialSize" : 1030,
       "fileType" : 8192
@@ -4017,7 +3919,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/logo.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/logo.png",
       "initialSize" : 12394,
       "fileType" : 8192
@@ -4037,7 +3939,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/compartir.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/compartir.jpg",
       "initialSize" : 1390,
       "fileType" : 4096
@@ -4048,7 +3950,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/css\/fondos\/fondo2.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/css\/fondos\/fondo2.png",
       "initialSize" : 150,
       "fileType" : 8192
@@ -4059,7 +3961,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/plataforma.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/plataforma.jpg",
       "initialSize" : 36703,
       "fileType" : 4096
@@ -4070,7 +3972,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/contenidos\/APAREJO2.JPG",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/contenidos\/APAREJO2.JPG",
       "initialSize" : 24755,
       "fileType" : 4096
@@ -4090,9 +3992,20 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/templates\/img\/interior_2.jpg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/templates\/img\/interior_2.jpg",
       "initialSize" : 905580,
+      "fileType" : 4096
+    },
+    "\/templates\/imagenes\/compartir.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/templates\/imagenes\/compartir.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/templates\/imagenes\/compartir.jpg",
+      "initialSize" : 1390,
       "fileType" : 4096
     },
     "\/templates\/img\/common\/top_bg.png" : {
@@ -4105,17 +4018,6 @@
       "outputAbbreviatedPath" : "\/templates\/img\/common\/top_bg.png",
       "initialSize" : 1032,
       "fileType" : 8192
-    },
-    "\/templates\/imagenes\/compartir.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/templates\/imagenes\/compartir.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/templates\/imagenes\/compartir.jpg",
-      "initialSize" : 1390,
-      "fileType" : 4096
     },
     "\/templates\/imagenes\/contacto\/titulo_casa_matriz.png" : {
       "ignoreWasSetByUser" : 0,
@@ -4150,7 +4052,41 @@
     }
   },
   "manualImportLinks" : [
-
+    {
+      "type" : 1,
+      "position" : 0,
+      "linkedFileAbbreviatedPath" : "\/templates\/js\/vendor\/jquery.form.js",
+      "baseFileAbbreviatedPath" : "\/templates\/js\/plugins.js",
+      "followForSyntaxChecking" : 1
+    },
+    {
+      "type" : 1,
+      "position" : 1,
+      "linkedFileAbbreviatedPath" : "\/templates\/js\/vendor\/jquery.validate.js",
+      "baseFileAbbreviatedPath" : "\/templates\/js\/plugins.js",
+      "followForSyntaxChecking" : 1
+    },
+    {
+      "type" : 1,
+      "position" : 2,
+      "linkedFileAbbreviatedPath" : "\/templates\/js\/vendor\/additional-methods.js",
+      "baseFileAbbreviatedPath" : "\/templates\/js\/plugins.js",
+      "followForSyntaxChecking" : 1
+    },
+    {
+      "type" : 1,
+      "position" : 3,
+      "linkedFileAbbreviatedPath" : "\/templates\/js\/vendor\/jquery.colorbox.js",
+      "baseFileAbbreviatedPath" : "\/templates\/js\/plugins.js",
+      "followForSyntaxChecking" : 1
+    },
+    {
+      "type" : 1,
+      "position" : 4,
+      "linkedFileAbbreviatedPath" : "\/templates\/js\/vendor\/slider.js",
+      "baseFileAbbreviatedPath" : "\/templates\/js\/plugins.js",
+      "followForSyntaxChecking" : 1
+    }
   ],
   "projectSettings" : {
     "hamlNoEscapeInAttributes" : 0,

@@ -22,3 +22,6 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+
+jQuery.fn.exists = function(){return this.length>0;}
+//  @codekit-append "jQuery.form.js", "jQuery.validate.js", "jQuery.colorbox.js", "slider.js";

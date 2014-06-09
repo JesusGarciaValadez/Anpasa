@@ -6,32 +6,37 @@
 .B_crumbBox{
     padding: 5px 20px 5px 30px;
     background: #fff;
-    list-style-type: none;
-    float:left;
-    a{
-        color:#999;
-        font-size: .8em;
-        text-decoration:none;
-        &:hover{ text-decoration:underline; }
-    }
+}     
+.B_crumbBox a{
+    color:#999;
+    font-size: .8em;
+    text-decoration:none;
 }
-.B_firstCrumb {
-
-    .B_homeCrumb{
-        padding: 5px 15px 5px 0;
-        //    margin-right:5px;}
-    }
-    a{ background:url("../images/crumbs.gif") no-repeat right center; }
+.B_crumbBox a:hover{
+    text-decoration:underline;
+}
+.B_firstCrumb .B_homeCrumb{
+    padding: 5px 15px 5px 0;
+//    margin-right:5px;}
+}
+.B_firstCrumb a{
+    background:url(../images/crumbs.gif) no-repeat right center;
 }
 .B_crumb{
     padding:5px 15px 5px 0;
-    //margin-right: -5px;
-    a{ background:url(../images/crumbs.gif) no-repeat right center; }
+//    margin-right: -5px;}
 }
-.B_lastCrumb {
-
-    a{
-        //margin:0;
-        &:hover{ text-decoration: none; cursor:pointer; }
-    }
+.B_crumb a{
+    background:url(../images/crumbs.gif) no-repeat right center;
+}
+.B_lastCrumb a{
+//    margin:0;}
+}
+.B_lastCrumb a:hover{
+    text-decoration: none;
+    cursor:pointer;
+}
+.B_crumbBox{
+    float:left;
+    list-style-type: none;
 }
